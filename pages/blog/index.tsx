@@ -56,7 +56,7 @@ const BlogPage: NextPage<Props> = ({ posts }) => {
             <div className="container" data-aos="fade-up">
               <div className="row gy-4 posts-list">
                 {posts.map((post) => (
-                  <PreviewArticle article={post} />
+                  <PreviewArticle article={post} key={post.title} />
                 ))}
               </div>
             </div>

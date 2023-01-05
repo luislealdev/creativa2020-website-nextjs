@@ -25,7 +25,7 @@ export const ArticlePage: NextPage<Props> = ({ frontmatter, content }) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths = () => {
+export const getStaticPaths: GetStaticPaths = async() => {
   const files = fs.readdirSync('./data/posts');
   const paths = files.map((fileName) =>
     fileName.replace('.md', ''),
@@ -40,7 +40,7 @@ export const getStaticPaths: GetStaticPaths = () => {
 
 }
 
-export const getStaticProps: GetStaticProps = ({ params }) => {
+export const getStaticProps: GetStaticProps = async({ params }) => {
   const { title } = params as { title: string };
 
   const fileName = fs.readFileSync(`./data/posts/${title}.md`, 'utf-8');
