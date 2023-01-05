@@ -1,20 +1,24 @@
-import React from "react";
-// import { articles } from "../data";
-import { RecentPostItem } from "./RecentPostItem";
+import React, { FC } from "react";
 
-export const SideBar = () => {
+import { RecentPostItem } from "./RecentPostItem";
+import { recentArticles } from '../data/recentPosts/recentArticles';
+
+
+export const SideBar: FC = () => {
+
   return (
     <div className="col-lg-4">
       <div className="sidebar">
         <div className="sidebar-item recent-posts">
           <h3 className="sidebar-title">Posts recientes</h3>
           <div className="mt-3">
-          {/* {articles.map((article) => ( 
-            <RecentPostItem article={article} key={article.id} />
-          ))} */}
+            {recentArticles.map((article) => (
+              <RecentPostItem article={article} key={article.title} />
+            ))}
           </div>
         </div>
       </div>
     </div>
   );
 };
+

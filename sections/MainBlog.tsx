@@ -1,6 +1,13 @@
+import NextLink from "next/link";
+import { FC } from "react";
 import { PreviewArticle } from "../components";
+import { article, recentArticle } from '../interfaces/articlesInterfaces';
 
-export const MainBlog = ({articles}) => {
+interface Props {
+  articles: article[]
+}
+
+export const MainBlog: FC<Props> = ({ articles }) => {
   return (
     <main id="main">
       <div className="breadcrumbs">
@@ -8,7 +15,7 @@ export const MainBlog = ({articles}) => {
           className="page-header d-flex align-items-center"
           style={{
             backgroundImage:
-              "url('https://images.pexels.com/photos/3178744/pexels-photo-3178744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+              "url('https://c0.wallpaperflare.com/preview/639/306/330/aerial-background-blog-cafe.jpg')",
           }}
         >
           <div className="container position-relative">
@@ -16,7 +23,7 @@ export const MainBlog = ({articles}) => {
               <div className="col-lg-6 text-center">
                 <h2>Blog</h2>
                 <p>
-                  Te enseñamos y enseñamos sobre optometría, marketing y otras
+                  Te enseñamos sobre optometría, marketing y otras
                   cosas que se nos ocurran...
                 </p>
               </div>
@@ -27,7 +34,7 @@ export const MainBlog = ({articles}) => {
           <div className="container">
             <ol>
               <li>
-                <a href="/">Inicio</a>
+                <NextLink href="/">Inicio</NextLink>
               </li>
               <li>Blog</li>
             </ol>
@@ -39,7 +46,7 @@ export const MainBlog = ({articles}) => {
         <div className="container" data-aos="fade-up">
           <div className="row gy-4 posts-list">
             {articles.map((article) => (
-              <PreviewArticle article={article} key={article.id} />
+              <PreviewArticle article={article} key={article.title} />
             ))}
           </div>
         </div>

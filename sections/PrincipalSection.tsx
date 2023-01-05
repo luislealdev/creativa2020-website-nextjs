@@ -12,7 +12,7 @@ export const PrincipalSection = () => {
 
   const handleMouseOut = () => {
     setIsHovering(false);
-  }; 
+  };
 
   return (
     <section id="hero" className="hero">
@@ -37,10 +37,8 @@ export const PrincipalSection = () => {
               className="img-fluid"
               autoplay
               loop
-              delay="5"
               src="https://assets10.lottiefiles.com/packages/lf20_5Mq5vRxVlQ.json"
               background="transparent"
-              speed="1"
               style={{ height: "300px", width: "500px" }}
             />
           </div>

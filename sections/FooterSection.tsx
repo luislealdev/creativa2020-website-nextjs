@@ -26,11 +26,10 @@ export const FooterSection = () => {
             <h4>Links comunes</h4>
             <ul>
               <li>
-
                 <NextLink href={home === home2 ? "/#" : "/"}>Inicio</NextLink>
               </li>
               <li>
-                <a href="#about">Sobre nosotros</a>
+                <NextLink href="#about">Sobre nosotros</NextLink>
               </li>
             </ul>
           </div>

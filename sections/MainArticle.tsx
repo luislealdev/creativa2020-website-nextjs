@@ -1,8 +1,9 @@
 import { FC } from "react";
 import { RecentPostItem } from "../components/RecentPostItem";
 import { SideBar } from "../components/SideBar";
-import { smallArticle } from '../interfaces/smallArticle';
+import { smallArticle } from '../interfaces/articlesInterfaces';
 import md from 'markdown-it';
+import Image from "next/image";
 
 interface Props {
   frontmatter: smallArticle,
@@ -18,10 +19,12 @@ export const MainArticle: FC<Props> = ({ frontmatter, content }) => {
             <div className="col-lg-8">
               <article className="blog-details">
                 <div className="post-img">
-                  <img
+                  <Image
                     src={frontmatter.socialImage}
                     alt={frontmatter.title}
                     className="img-fluid"
+                    width={900}
+                    height={300}
                   />
                 </div>
 
@@ -30,23 +33,23 @@ export const MainArticle: FC<Props> = ({ frontmatter, content }) => {
                 <div className="meta-top">
                   <ul>
                     <li className="d-flex align-items-center">
-                      <i className="bi bi-person"></i>{" "}
-                      //TODO: AGREGAR AUTOR AL ARTICULO
-                      <a href="blog-details.html">{ }</a>
+                      <i className="bi bi-person"></i>{ }
+                      {/* <a href="blog-details.html"> */}
+                        {frontmatter.author}
+                        {/* </a> */}
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="bi bi-clock"></i>{" "}
-                      <a href="blog-details.html">
+                      {/* <a href="blog-details.html"> */}
                         <time dateTime="2020-01-01">{frontmatter.date}</time>
-                      </a>
+                      {/* </a> */}
                     </li>
                   </ul>
                 </div>
 
                 <div className="content">
 
-                <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-
+                  <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
                 </div>
               </article>
             </div>
@@ -57,3 +60,4 @@ export const MainArticle: FC<Props> = ({ frontmatter, content }) => {
     </main>
   );
 };
+

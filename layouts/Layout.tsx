@@ -6,13 +6,17 @@ import { FooterSection } from "../sections";
 interface Props {
     children?: JSX.Element,
     title?: string,
+    author?: string,
     description?: string,
-    favIcon?: string
+    favIcon?: string,
+    metaTags?: string[],
 };
 
 const origin = (typeof window === 'undefined') ? '' : window.location.origin;
 
-export const Layout: FC<Props> = ({ children, title, description, favIcon }) => {
+export const Layout: FC<Props> = ({ children, title, author, description, favIcon, metaTags }) => {
+
+
 
     return (
         <>
@@ -24,17 +28,17 @@ export const Layout: FC<Props> = ({ children, title, description, favIcon }) => 
 
                 {/*FAVICON */}
                 <link href="./img/favicon.png" rel="icon" />
-                <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" />
+                <link rel="shortcut icon" href={favIcon || 'img/logo.png'} type="image/x-icon" />
                 {/*AUTHOR */}
-                <meta name='author' content='CREATIVA2020 - Luis Leal' />
+                <meta name='author' content={`CREATIVA2020 - ${author || 'Luis Leal'}`} />
                 {/*DESCRIPTION AND KEYWORDS */}
                 <meta name='description' content={`${description}`} />
-                <meta name='keywords' content={`${title}, creativa2020, marketing, celaya`} />
+                <meta name='keywords' content={`${metaTags},creativa2020, marketing, celaya`} />
                 {/*METATAGS*/}
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content={`${title}`} />
-                <meta property="og:description" content={`Información sobre ${description}`} />
-                <meta property="og:image" content={`${origin}/img/banner.png`} />
+                <meta property="og:description" content={description} />
+                <meta property="og:image" content={`${origin}/img/logo.png`} />
                 <meta property="og:url" content="https://creativa2020.com/" />
                 <meta property="og:site_name" content="Creativa 2020" />
 

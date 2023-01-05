@@ -1,1 +1,1 @@
-export * from './smallArticle';
+export * from './articlesInterfaces';

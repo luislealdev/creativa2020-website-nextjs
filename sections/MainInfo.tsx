@@ -20,8 +20,8 @@ export const MainInfo = () => {
       <StatsSection />
       <OurServicesSection />
       <TestimonialsSection />
-      <PortFolioSection/>
-      <OurTeamSection/>
+      {/* <PortFolioSection/> */}
+      {/* <OurTeamSection/> */}
       <PackagesSection/>
       <RecentBlogPostSection/>
       <ContactSection/>
