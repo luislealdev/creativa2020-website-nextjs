@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NextLink from "next/link";
 import React from "react";
 // import { useSelector, useDispatch } from "react-redux";
@@ -9,7 +10,7 @@ export const Navbar = () => {
     <header id="header" className="header d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         <NextLink href="/" className="logo d-flex align-items-center">
-          <img src="/img/logo.png" alt="Creativa 2020" />
+          <Image src="/img/logo.png" alt="Creativa 2020" width={250} height={400}/>
         </NextLink>
         <nav id="navbar" className="navbar">
           <ul>

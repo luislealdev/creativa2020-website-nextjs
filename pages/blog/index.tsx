@@ -44,7 +44,7 @@ const BlogPage: NextPage<Props> = ({ posts }) => {
               <div className="container">
                 <ol>
                   <li>
-                    <a href="/">Inicio</a>
+                    <NextLink href="/">Inicio</NextLink>
                   </li>
                   <li>Blog</li>
                 </ol>
@@ -55,9 +55,9 @@ const BlogPage: NextPage<Props> = ({ posts }) => {
           <section id="blog" className="blog">
             <div className="container" data-aos="fade-up">
               <div className="row gy-4 posts-list">
-          {posts.map((post) => (
-            <PreviewArticle article={post} />
-          ))}
+                {posts.map((post) => (
+                  <PreviewArticle article={post} />
+                ))}
               </div>
             </div>
           </section>

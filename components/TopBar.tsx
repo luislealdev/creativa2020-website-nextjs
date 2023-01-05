@@ -1,4 +1,4 @@
-import React from "react";
+import NextLink from "next/link";
 
 export const TopBar = () => {
   return (
@@ -6,26 +6,28 @@ export const TopBar = () => {
       <div className="container d-flex justify-content-center justify-content-md-between">
         <div className="contact-info d-flex align-items-center">
           <i className="bi bi-envelope d-flex align-items-center">
-            <a href="mailto:contact@example.com">contacto@creativa2020.com</a>
+            <NextLink href="mailto:contact@example.com">contacto@creativa2020.com</NextLink>
           </i>
         </div>
 
         <div className="social-links d-none d-md-flex align-items-center">
 
-          <a
+          <NextLink
             href="https://www.facebook.com/Creativa-2020-109887805156958"
             className="facebook"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bi bi-facebook"></i>
-          </a>
-          <a
+          </NextLink>
+          <NextLink
             href="https://instagram.com/creativa2020_agencia?igshid=YmMyMTA2M2Y="
             className="instagram"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bi bi-instagram"></i>
-          </a>
+          </NextLink>
         </div>
       </div>
     </section>
