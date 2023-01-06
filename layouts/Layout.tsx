@@ -16,8 +16,6 @@ const origin = (typeof window === 'undefined') ? '' : window.location.origin;
 
 export const Layout: FC<Props> = ({ children, title, author, description, favIcon, metaTags }) => {
 
-
-
     return (
         <>
             <Head>
@@ -32,12 +30,12 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
                 {/*AUTHOR */}
                 <meta name='author' content={`CREATIVA2020 - ${author || 'Luis Leal'}`} />
                 {/*DESCRIPTION AND KEYWORDS */}
-                <meta name='description' content={`${description}`} />
-                <meta name='keywords' content={`${metaTags},creativa2020, marketing, celaya`} />
+                <meta name='description' content={`${description}` || 'Agencia de marketing especializada en el sector óptico y salud visual.'} />
+                <meta name='keywords' content={`${metaTags},creativa2020, marketing, celaya` || 'creativa2020, marketing, celaya'} />
                 {/*METATAGS*/}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content={`${title}`} />
-                <meta property="og:description" content={description} />
+                <meta property="og:title" content={`${title}` || 'Creativa2020'} />
+                <meta property="og:description" content={`${description}` || 'Agencia de marketing especializada en el sector óptico y salud visual.'} />
                 <meta property="og:image" content={`${origin}/img/logo.png`} />
                 <meta property="og:url" content="https://creativa2020.com/" />
                 <meta property="og:site_name" content="Creativa 2020" />
