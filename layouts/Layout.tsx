@@ -13,6 +13,7 @@ interface Props {
 };
 
 const origin = (typeof window === 'undefined') ? '' : window.location.origin;
+const defaultOGImage = `${origin}/img/logo.png`;
 
 export const Layout: FC<Props> = ({ children, title, author, description, favIcon, metaTags }) => {
 
@@ -36,7 +37,7 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content={`${title || 'Creativa2020'} `} />
                 <meta property="og:description" content={`${description || 'Agencia de marketing especializada en el sector óptico y salud visual.'} `} />
-                <meta property="og:image" content={`${origin}/img/logo.png`} />
+                <meta property="og:image" content={`${favIcon || defaultOGImage}`} />
                 <meta property="og:url" content="https://creativa2020.com/" />
                 <meta property="og:site_name" content="Creativa 2020" />
 
