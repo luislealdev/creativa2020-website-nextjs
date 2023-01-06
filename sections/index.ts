@@ -8,7 +8,6 @@ export * from "./OurTeamSection";
 export * from "./PackagesSection";
 export * from "./PortFolioSection";
 export * from "./PrincipalSection";
-export * from "./QYASection";
 export * from "./RecentBlogPostSection";
 export * from "./TestimonialsSection";
 export * from "./StatsSection";
