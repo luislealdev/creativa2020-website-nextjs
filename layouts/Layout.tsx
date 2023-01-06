@@ -26,7 +26,7 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
 
                 {/*FAVICON */}
                 <link href="./img/favicon.png" rel="icon" />
-                <link rel="shortcut icon" href={favIcon || 'img/logo.png'} type="image/x-icon" />
+                <link rel="shortcut icon" href={`${favIcon || 'img/logo.png'}`} type="image/x-icon" />
                 {/*AUTHOR */}
                 <meta name='author' content={`CREATIVA2020 - ${author || 'Luis Leal'}`} />
                 {/*DESCRIPTION AND KEYWORDS */}
