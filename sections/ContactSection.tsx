@@ -1,5 +1,8 @@
 import { send } from "emailjs-com";
+import { FC } from "react";
+import Swal from "sweetalert2";
 import { useForm } from "../hooks";
+
 
 const formData = {
   nombre: "",
@@ -9,12 +12,35 @@ const formData = {
   email: "",
   hanTrabajadoAntesConAgencia: "",
   inversionMensual: "",
-  enlaceDeRedesSociales:""
+  enlaceDeRedesSociales: ""
 };
 
-export const ContactSection = () => {
+interface formData {
+
+  nombre?: string,
+  telefono?: string,
+  numSucursales?: string,
+  numEmpleados?: string,
+  email?: string,
+  hanTrabajadoAntesConAgencia?: string,
+  inversionMensual?: string,
+  enlaceDeRedesSociales?: string
+}
+
+export const ContactSection: FC = () => {
   const { formState, onInputChange, onResetForm } = useForm(formData);
-  const onSubmit = (e) => {
+  const {
+    nombre,
+    telefono,
+    numSucursales,
+    numEmpleados,
+    email,
+    hanTrabajadoAntesConAgencia,
+    inversionMensual,
+    enlaceDeRedesSociales
+  }: formData = formState;
+
+  const onSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     send("id1", "default", formState, "WllcpADNcflscCJRW")
       .then((response) => {
@@ -34,6 +60,7 @@ export const ContactSection = () => {
         });
       });
   };
+
   return (
     <section id="contact" className="contact">
       <div className="container" data-aos="fade-up">
@@ -88,7 +115,7 @@ export const ContactSection = () => {
                     placeholder="Nombre de la óptica"
                     required
                     name="nombre"
-                    value={formState.nombre}
+                    value={nombre}
                     onChange={onInputChange}
                   />
                 </div>
@@ -98,7 +125,7 @@ export const ContactSection = () => {
                     type="text"
                     className="form-control"
                     name="telefono"
-                    value={formState.telefono}
+                    value={telefono}
                     onChange={onInputChange}
                     placeholder="Número de contacto"
                     required
@@ -112,7 +139,7 @@ export const ContactSection = () => {
                     type="email"
                     className="form-control"
                     name="email"
-                    value={formState.email}
+                    value={email}
                     onChange={onInputChange}
                     placeholder="Correo electrónico"
                     required
@@ -123,7 +150,7 @@ export const ContactSection = () => {
                     autoComplete="off"
                     type="text"
                     name="numSucursales"
-                    value={formState.numSucursales}
+                    value={numSucursales}
                     onChange={onInputChange}
                     className="form-control"
                     placeholder="Número de sucursales"
@@ -136,7 +163,7 @@ export const ContactSection = () => {
                     type="text"
                     className="form-control"
                     name="numEmpleados"
-                    value={formState.numEmpleados}
+                    value={numEmpleados}
                     onChange={onInputChange}
                     placeholder="Número de empleados"
                     required
@@ -150,7 +177,7 @@ export const ContactSection = () => {
                     type="text"
                     className="form-control"
                     name="hanTrabajadoAntesConAgencia"
-                    value={formState.hanTrabajadoAntesConAgencia}
+                    value={hanTrabajadoAntesConAgencia}
                     onChange={onInputChange}
                     placeholder="¿Han trabajado anteriormente con una agencia? (SI/NO)"
                     required
@@ -162,7 +189,7 @@ export const ContactSection = () => {
                     type="text"
                     className="form-control"
                     name="enlaceDeRedesSociales"
-                    value={formState.enlaceDeRedesSociales}
+                    value={enlaceDeRedesSociales}
                     onChange={onInputChange}
                     placeholder="Enlace de tus redes sociales"
                     required
@@ -176,7 +203,7 @@ export const ContactSection = () => {
                     type="text"
                     className="form-control"
                     name="inversionMensual"
-                    value={formState.inversionMensual}
+                    value={inversionMensual}
                     onChange={onInputChange}
                     placeholder="Inversión mensual en redes/publicidad"
                     required

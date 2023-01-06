@@ -10,16 +10,18 @@ export const TopBar = () => {
           </i>
         </div>
 
-        <div className="social-links d-none d-md-flex align-items-center">
+        {/* <div className="social-links d-none d-md-flex align-items-center">
 
-          <NextLink
+
+            <i className="bi bi-facebook">
+            <NextLink
             href="https://www.facebook.com/Creativa-2020-109887805156958"
             className="facebook"
             target="_blank"
             rel="noreferrer"
-          >
-            <i className="bi bi-facebook"></i>
-          </NextLink>
+          />
+            </i>
+
           <NextLink
             href="https://instagram.com/creativa2020_agencia?igshid=YmMyMTA2M2Y="
             className="instagram"
@@ -28,7 +30,7 @@ export const TopBar = () => {
           >
             <i className="bi bi-instagram"></i>
           </NextLink>
-        </div>
+        </div> */}
       </div>
     </section>
   );
