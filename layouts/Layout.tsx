@@ -31,7 +31,7 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
                 <meta name='author' content={`CREATIVA2020 - ${author || 'Luis Leal'}`} />
                 {/*DESCRIPTION AND KEYWORDS */}
                 <meta name='description' content={`${description || 'Agencia de marketing especializada en el sector óptico y salud visual.'} `} />
-                <meta name='keywords' content={`${metaTags || ''},creativa2020, marketing, celaya`} />
+                <meta name='keywords' content={`${metaTags + ',' || ''}creativa2020, marketing, celaya`} />
                 {/*METATAGS*/}
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content={`${title || 'Creativa2020'} `} />
