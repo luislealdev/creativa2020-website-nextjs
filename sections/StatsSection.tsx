@@ -13,7 +13,6 @@ export const StatsSection = () => {
               loop
               src="https://assets3.lottiefiles.com/packages/lf20_6pjojgtl.json"
               background="transparent"
-              speed="1"
               style={{ height: "400px", width: "500px" }}
             />
           </div>
