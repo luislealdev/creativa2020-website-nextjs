@@ -6,7 +6,7 @@ export const StatsSection = () => {
     <section id="stats-counter" className="stats-counter">
       <div className="container" data-aos="fade-up">
         <div className="row gy-4 align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 ">
           <Player
               className="img-fluid"
               autoplay

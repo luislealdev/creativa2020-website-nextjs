@@ -1,4 +1,3 @@
-
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
@@ -21,6 +20,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+/*TESTS*/
+.figures-bg {
+  background-image: url(../public/img/figures.png);
+}
 
 /*WHATSAPP BUTTON*/
 /* .btn-whatsapp {
@@ -62,10 +67,11 @@
 .btn-phone i {
   font-size: 35px;
   color: white;
-} */ 
-html{
+} */
+html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -77,7 +83,7 @@ a {
 }
 
 a:hover {
-  color:#bbbbbb;
+  color: #bbbbbb;
   text-decoration: none;
 }
 
@@ -109,74 +115,97 @@ h6 {
 .color-yellow {
   color: var(--color-primary);
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
+
 @media (max-width: 600px) {
-.swiper-wrapper{
-  grid-template-columns: repeat(1,1fr);
-}
+  .swiper-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .parrafo {
   white-space: pre-line;
   /* text-align: justify; */
 }
-.mobile-nav-toggle{
-  color:black !important;
+
+.mobile-nav-toggle {
+  color: black !important;
 }
-.grid-3{
+
+.grid-3 {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-.grid-2{
+
+.grid-2 {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-.margin-10px{
+
+.margin-10px {
   margin: 20px;
 }
-.inline{
+
+.inline {
   display: inline-flex;
 }
-.upWhenHover{
+
+.upWhenHover {
   animation-duration: 1s;
 }
-.upWhenHover:hover{
+
+.upWhenHover:hover {
   position: relative;
   animation-name: up;
   animation-duration: 1s;
   bottom: 50px;
 }
-.bg-texture{
+
+.bg-texture {
   background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
 }
 
 @keyframes up {
-  0%   { bottom:0px;}
-  100% { bottom:50px;}
+  0% {
+    bottom: 0px;
+  }
+
+  100% {
+    bottom: 50px;
+  }
+}
+
+.bg-figure-1 {
+  background-color: #FFF500;
+  border-radius: 200px 200px 0px 200px;
 }
 
 @media (max-width: 770px) {
-  .grid-3{
+  .grid-3 {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
-  .grid-2{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  @media (min-width: 771px) and  (max-width: 1200px) {
-    .grid-3{
-      grid-template-columns: repeat(2,1fr);
-    }
-    .grid-2{
-      grid-template-columns: repeat(2,1fr);
-    }
+  .grid-2 {
+    /* display: grid;*/
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
+}
+
+@media (min-width: 771px) and (max-width: 1200px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /*--------------------------------------------------------------
 # Sections & Section Header
@@ -893,15 +922,17 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding: 20px 5px 0 5px;
-  
+
 }
-.clients .swiper-wrapper{
+
+.clients .swiper-wrapper {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
+
 @media (max-width: 600px) {
-  .clients .swiper-wrapper{
-    grid-template-columns: repeat(2,1fr);
+  .clients .swiper-wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1100,7 +1131,7 @@ section {
 /*--------------------------------------------------------------
 # Our Services Section
 --------------------------------------------------------------*/
-.services {
+/* .services {
   padding: 60px 0;
 }
 
@@ -1177,7 +1208,527 @@ section {
 
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
+} */
+:root {
+  --z-s: 50vmin;
+  /*  -------image planetas---------  */
+  --sol: url('https://media.giphy.com/media/OWDUUrk8fwYj6/giphy.gif');
+  --mercurio: url('http://opcionweb.com/webs/espacio/mercurio.png');
+  --venus: url('https://vignette.wikia.nocookie.net/dumbledoresarmyroleplay/images/d/dc/Venus.png/revision/latest?cb=20120527010129');
+  --tierra: url('https://vignette.wikia.nocookie.net/tmnt/images/0/05/La_tierra_00.png/revision/latest?cb=20170919151939&path-prefix=es');
+  --social-media: url('https://cdn-icons-png.flaticon.com/512/2327/2327648.png');
+  --google-ads: url('https://cdn-icons-png.flaticon.com/512/2631/2631002.png');
+  --google-ads2: url('http://www.pngmart.com/files/4/google-ads-PNG-File.png');
+  --email-marketing: url('https://cdn-icons-png.flaticon.com/512/2451/2451120.png');
+  --call-center: url('https://cdn-icons-png.flaticon.com/512/1470/1470002.png');
+  --call-center2: url('https://cdn.icon-icons.com/icons2/1434/PNG/256/09-uranus_98592.png');
+  --community-manager: url('https://cdn-icons-png.flaticon.com/512/2521/2521939.png');
+  --community-manager2: url('https://vignette.wikia.nocookie.net/destiny/images/5/5e/community-manager.png.png/revision/latest?cb=20130625170428&path-prefix=es');
+  --pluton: url('https://i.dlpng.com/static/png/480693_thumb.png');
 }
+
+#btn-move {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  display: block;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  color: gray;
+  font-size: 1.5em;
+  border-radius: 100%;
+  background-color: black;
+}
+
+/* ------------------------------
+ -------padres prinsipales-------
+ ---------------------------------*/
+.bodyServices {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  overflow-y: auto;
+  /* background-color: #000; */
+}
+
+.bodyServices::after {
+  content: "Preciona los planetas / Click the planets";
+  position: absolute;
+  bottom: .4rem;
+  left: .5rem;
+  justify-items: center;
+  color: white;
+  background-color: #000;
+  text-transform: uppercase;
+  font: .5em sans-serif;
+}
+
+.sistema-solar {
+  position: relative;
+  width: var(--z-s);
+  height: var(--z-s);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*   transform: rotatex(50deg) */
+
+}
+
+.content-objeto {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: left;
+  visibility: hidden;
+}
+
+.objeto {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  visibility: visible;
+  cursor: pointer;
+}
+
+/* ----social-media---- */
+.content-social-media {
+  width: calc(var(--z-s) / 3);
+  height: auto;
+}
+
+.social-media {
+  height: calc(var(--z-s)/3);
+  width: calc(var(--z-s)/3);
+  background-image: var(--social-media);
+  background-size: 100%;
+  animation: GFG-1 7s infinite linear;
+}
+
+@keyframes GFG-1 {
+  0% {
+      transform: rotate(0deg) translateY(25px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg) translateY(25px) rotate(-360deg);
+  }
+}
+
+/* ----google-ads---- */
+.content-google-ads {
+  width: calc(var(--z-s) / 2.1);
+}
+
+.google-ads {
+  height: calc(var(--z-s)/4);
+  width: calc(var(--z-s)/4);
+  background-image: var(--google-ads);
+  background-size: 100%;
+  animation: GFG-2 4s infinite linear;
+}
+
+@keyframes GFG-2 {
+  0% {
+      transform: rotate(0deg) translateY(calc(100vw/12)) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg) translateY(calc(100vw/12)) rotate(-360deg);
+  }
+}
+
+/* ----email-marketing---- */
+.content-email-marketing {
+  width: calc(var(--z-s) / 1.76);
+}
+
+.email-marketing {
+  width: calc(var(--z-s) / 5);
+  height: calc(var(--z-s) / 5);
+  background-image: var(--email-marketing);
+  background-size: 105%;
+  z-index: 100;
+  animation: GFG-3 5s infinite linear;
+}
+
+@keyframes GFG-3 {
+  0% {
+      transform: rotate(0deg) translateY(calc(100vw/8)) rotate(0deg);
+  }
+  100% {
+      transform: rotate(-360deg) translateY(calc(100vw/8)) rotate(360deg);
+  }
+}
+
+/* ----call-center---- */
+.content-call-center {
+  width: calc(var(--z-s) / 1.4);
+}
+
+.call-center {
+  height: calc(var(--z-s) / 4);
+  width: calc(var(--z-s) / 4);
+  background-image: var(--call-center);
+  background-size: 75%;
+  animation: GFG-3 7s infinite linear;
+}
+
+/* ----community-manager--- */
+.content-community-manager {
+  width: calc(var(--z-s) / 1.31);
+}
+
+.community-manager {
+  height: calc(var(--z-s)/4);
+  width: calc(var(--z-s)/4);
+  background-image: var(--community-manager);
+  background-size: 100%;
+    animation: GFG-4 5s infinite linear;
+}
+
+@keyframes GFG-4 {
+  0% {
+      transform: rotate(0deg) translateY(calc(100vw/7)) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translateY(calc(100vw/7)) rotate(-360deg);
+  }
+}
+
+/* ---------------------- */
+/* ------linea guia----- */
+/* ---------------------- */
+
+.linea-guia {
+  position: absolute;
+  border-radius: 100%;
+  border: 1px dashed black;
+  /* z-index: -20; */
+}
+
+.linea-guia-1 {
+  width: calc(var(--z-s) / 6);
+  height: calc(var(--z-s) / 6);
+}
+
+.linea-guia-2 {
+  width: calc(var(--z-s) / 3.6);
+  height: calc(var(--z-s) / 3.6);
+}
+
+.linea-guia-3 {
+  width: calc(var(--z-s) / 2.5);
+  height: calc(var(--z-s) / 2.5);
+}
+
+.linea-guia-4 {
+  width: calc(var(--z-s) / 1.9);
+  height: calc(var(--z-s) / 1.9);
+}
+
+.linea-guia-5 {
+  width: calc(var(--z-s) / 1.4);
+  height: calc(var(--z-s) / 1.4);
+}
+
+.linea-guia-6 {
+  width: calc(var(--z-s) / 1.06);
+  height: calc(var(--z-s) / 1.06);
+}
+
+.linea-guia-7 {
+  width: calc(var(--z-s) / .87);
+  height: calc(var(--z-s) / .87);
+}
+
+.linea-guia-8 {
+  width: calc(var(--z-s) / .79);
+  height: calc(var(--z-s) / .79);
+}
+
+.linea-guia-9 {
+  width: calc(var(--z-s) / .73);
+  height: calc(var(--z-s) / .73);
+}
+
+
+
+/* -------------------------- */
+/* ----estilos de targetas planetarias */
+/* -------------------------- */
+
+#ccp {
+  display: none;
+}
+
+.cards-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.content-card {
+  display: none;
+  position: absolute;
+  max-width: 280px;
+  min-height: 200px;
+  max-height: 500px;
+  flex-direction: column;
+  background-color: white;
+  overflow: auto;
+  animation: aparecer .2s ease-in-out
+}
+
+@keyframes aparecer {
+  0% {
+    transform: scale(0)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+.img-planeta {
+  height: 155px;
+  background-size: contain, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box, border-box;
+  margin-bottom: .4rem;
+  padding: .7rem;
+  position: relative;
+}
+
+.title-planeta {
+  color: white;
+  font-family: calibri;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+  padding-left: .3rem;
+  user-select: none;
+  background-color: rgb(255, 8, 8);
+  padding: .2rem .5rem;
+  border-radius: 1rem 0 0 1rem
+}
+
+.info-planeta {
+  padding: .5rem 1rem;
+}
+
+.info-planeta p {
+  font-size: .9em;
+  text-align: justify;
+  line-height: 1.4;
+  color: hsl(0, 0%, 50%);
+  padding-left: .8rem;
+  position: relative;
+  font-family: 'Open Sans';
+  font-weight: 900;
+}
+
+.info-planeta p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: #f00;
+  background-image:
+    linear-gradient(#fc9201,
+      #d6723c,
+      #9f5f1b,
+      #2a376d,
+      #d55333,
+      #b48a5c,
+      #4480a3,
+      #4676fa,
+      #ecba95);
+}
+
+.caja-botones {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.caja-botones a,
+.caja-botones .btn-planeta {
+  text-decoration: none;
+  padding: .5rem .7rem;
+  font-size: .70em;
+  text-transform: uppercase;
+  background-color: dodgerblue;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  transition: .2s;
+  font-weight: 900;
+  color: black;
+  user-select: none;
+  color: white;
+  border-radius: 1rem;
+}
+
+.caja-botones a:hover,
+.caja-botones .btn-planeta:hover {
+  background-color: #06f;
+  color: white;
+}
+
+.caja-botones a:active,
+.caja-botones .btn-planeta:active {
+  transform: scale(.9)
+}
+
+
+
+/* imagenes de cards planetas */
+.card-sol .img-planeta {
+  background-image:
+    url('http://galacticmagazine.torodgn.com/viaje/images/elements/compartido/sol.png'),
+    var(--bgi-card);
+  background-size: 90%, cover;
+}
+
+.card-mercurio .img-planeta {
+  background-image:
+    var(--mercurio),
+    var(--bgi-card);
+}
+
+.card-venus .img-planeta {
+  background-image:
+    var(--venus),
+    var(--bgi-card);
+}
+
+.card-tierra .img-planeta {
+  background-image:
+    var(--tierra),
+    var(--bgi-card);
+}
+
+.card-social-media .img-planeta {
+  background-image:
+    var(--social-media),
+    var(--bgi-card);
+}
+
+.card-google-ads .img-planeta {
+  background-image:
+    var(--google-ads2),
+    var(--bgi-card);
+}
+
+.card-email-marketing .img-planeta {
+  background-image:
+    var(--email-marketing),
+    var(--bgi-card);
+}
+
+.card-call-center .img-planeta {
+  background-image:
+    var(--call-center2),
+    var(--bgi-card);
+}
+
+.card-community-manager .img-planeta {
+  background-image:
+    var(--community-manager2),
+    var(--bgi-card);
+}
+
+.card-pluton .img-planeta {
+  background-image:
+    var(--pluton),
+    var(--bgi-card);
+}
+
+
+/* ------------------------------
+ -------pseudoelementos-------
+ ---------------------------------*/
+.social-media::before {
+  content: "Social Media";
+}
+
+.google-ads::before {
+  content: "Google Ads";
+}
+
+.email-marketing::before {
+  content: "Email Marketing";
+}
+
+.call-center::before {
+  content: "Call Center";
+}
+
+.community-manager::before {
+  content: "community Manager";
+}
+
+
+.objeto::before {
+  position: absolute;
+  color: black;
+  font-family: monospace;
+  right: 140%;
+  top: 0;
+  bottom: 0;
+  height: 65px;
+  margin: auto;
+  /* padding: 0 .5rem .15rem; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  background-color: #FFF500;
+  border-radius: 10px;
+  /* transition: .5s;
+  animation: girar-pseudo 4s linear; */
+}
+
+.objeto:hover::before {
+  display: block;
+}
+
+/* @keyframes girar-pseudo {
+  100% {
+    transform: rotate(1turn)
+  }
+} */
+
+/* animacioness y mas  */
+
+.content-objeto {
+  animation: infinite linear both;
+  --dm: 10s;
+}
+
+/*CHANGE TO RUNNING WHEN DEPLOYING*/
+.content-objeto {
+  animation-play-state: running;
+}
+
+
 
 /*--------------------------------------------------------------
 # Testimonials Section
@@ -2181,7 +2732,7 @@ section {
 
 .hero .icon-box:hover {
   background: #000000;
-  color:white;
+  color: white;
 }
 
 .hero .icon-box:hover .title a,
