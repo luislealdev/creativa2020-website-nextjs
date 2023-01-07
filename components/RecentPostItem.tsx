@@ -13,7 +13,7 @@ export const RecentPostItem: FC<Props> = ({ article }) => {
       <Image src={article.content.socialImage} alt={article.title} width={500} height={50}/>
       <div>
         <h4>
-          <NextLink href={`/blog/article/${article.title}`}>{article.title}</NextLink>
+          <NextLink href={`/blog/article/${article.title}`}>{article.content.title}</NextLink>
         </h4>
         <time>{article.content.date}</time>
       </div>
