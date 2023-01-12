@@ -27,6 +27,7 @@ para adelante, tal vez tengamos que retroceder al origen. Y, ¡ahí está la cla
 
 ### CONOCE LOS 4 PILARES DE NEGOCIO
 
+
 1. ##### Identidad de marca
 
    ¿Ya conoces cuál es tu identidad de marca? ¿Mantienes una paleta de colores y tipografías para tu contenido? Recuerda que **una imagen vale más que mil palabras**.

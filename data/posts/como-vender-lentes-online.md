@@ -2,7 +2,7 @@
 title: "Cómo vender lentes online"
 metaTitle: "Cómo vender lentes online | Creativa2020"
 metaDesc: "En momentos de crisis lo que queremos es una solución fácil y rápida, pero se nos olvida que antes de ir..."
-socialImage: "https://s1.eestatic.com/2019/10/04/omicrono/omicrono_434216645_134602640_1706x960.jpg"
+socialImage: "https://img.freepik.com/foto-gratis/negocio-compras-linea-concepto-venta_1421-238.jpg?w=1480&t=st=1673561891~exp=1673562491~hmac=92487973a0568c4576f5a8469f9279c2b1823a03eeb586953a48965df9b56393"
 date: "12 enero, 2022"
 author: "Luis Leal"
 authorImg: "img/team/Luis.png"
@@ -24,10 +24,12 @@ Lo primero que tenemos que saber es ¿qué es un e-commerce?, un e-commerce es u
 
 ### ¿POR QUÉ DEBERÍAS TENER UN E-COMMERCE?
 
+
 1. ##### Clientes de todo el mundo
     Uno de los principales beneficios de tener una tienda en línea ( e-commerce) es el poder **llegar a aquellas personas que nunca hubieras llegado**.
 
     Imagina que tienes tu tienda en Guadalajara, las personas de Cancún no sabrían de ti... tu mercado se reduce mucho a tu zona, mientras que con un e-commerce tu mercado se expande no solo de manera nacional, sino internacional. El tráfico que generas hacia tu tienda se multiplica por miles y lo mismo pasa con tus ventas.
+
 2. ##### Un proceso automatizado
     Al tener un e-commerce, tu proceso de venta es más sencillo de lo que crees:
     - El cliente ingresa a tu sitio
@@ -37,6 +39,7 @@ Lo primero que tenemos que saber es ¿qué es un e-commerce?, un e-commerce es u
     - Creas el envío y lo mandas
 
     Y ¡listo!, no necesitas preocuparte de nada más, tu cliente ya habrá elegido su armazón y graduación en el mismo sitio web, **tú solo te encargas de vender y enviar.**
+
 3. ##### Convertir tu negocio pequeño en grande
     No importa si tienes una sola óptica o varias, es necesario dar este paso para ir adelante de los demás, no te quedes con lo que todos tienen, **crea algo único**.
 
@@ -46,6 +49,7 @@ Lo primero que tenemos que saber es ¿qué es un e-commerce?, un e-commerce es u
 - Sabemos que tienes mucho trabajo, piensa en contratar una agencia especializada para alivianar tu carga de trabajo y hacer las cosas de la mejor manera posible.
 - No descuides tu tienda física.
 - Agrega las diversas marcas y tratamientos que manejas.
+
 
 #### **NOSOTROS TE AYUDAMOS**
 Nosotros podemos formar parte de tu proceso y guiarte en cada paso para convertir tu empresa en un éxito digital.
