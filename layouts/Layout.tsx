@@ -43,7 +43,7 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
 
             </Head>
 
-            <TopBar />
+            {/* <TopBar /> */}
             <Navbar />
 
             {children}
