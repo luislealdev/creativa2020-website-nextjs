@@ -11,10 +11,10 @@ export const Navbar = () => {
         <img src="/img/logocreativa.png" alt="" />
         <ul>
           <li>
-            <NextLink href="/">Home</NextLink>
+            <NextLink href="/">Inicio</NextLink>
           </li>
           <li>
-            <NextLink href="/servicios">Servicios</NextLink>
+            <NextLink href="/servicios">Portafolio</NextLink>
           </li>
           <li>
             <NextLink href="/blog">Blog</NextLink>

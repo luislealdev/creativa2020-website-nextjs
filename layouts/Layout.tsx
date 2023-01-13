@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { Navbar, TopBar } from '../components';
+import { Navbar } from '../components';
 import Head from 'next/head';
 import { FooterSection } from "../sections";
 
