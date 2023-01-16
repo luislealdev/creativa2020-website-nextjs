@@ -17,7 +17,7 @@ export const MainInfo = () => {
     <main id="main">
       <AboutUsSection />
       <Clients />
-      <StatsSection />
+      {/* <StatsSection /> */}
       <OurServicesSection />
       <TestimonialsSection />
       {/* <PortFolioSection/> */}

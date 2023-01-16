@@ -6,7 +6,7 @@ export const PrincipalSection = () => {
   return (
     <>
       <section className="grid-15-70-15" id="home-section">
-        <div>
+        <div className="lateral-1">
           <Onda />
         </div>
         <div className="info">
@@ -26,15 +26,8 @@ export const PrincipalSection = () => {
             style={{ height: "400px", width: "500px" }}
           />
         </div>
-        <div>
-          <Player
-            className="img-fluid"
-            autoplay
-            loop
-            src="https://assets1.lottiefiles.com/packages/lf20_ttz3isg3.json"
-            background="transparent"
-            style={{ height: "400px", width: "500px" }}
-          />
+        <div className="lateral-2">
+        <Onda />
           <div>
 
           </div>

@@ -12,7 +12,7 @@ export const Onda = () => {
     }
   };
   return (
-    <div key="avatar_animation" className="animation">
+    <div key="avatar_animation" className="animation" style={{}}>
       <Lottie
         options={defaultOptions}
         isClickToPauseDisabled={true}
