@@ -64,10 +64,6 @@ export const ContactSection: FC = () => {
   return (
     <section id="contact" className="contact">
       <div className="container" data-aos="fade-up">
-        <div className="section-header">
-          <h2>Contacto</h2>
-          <p>Conéctate con nosotros para empezar tu historia de éxito</p>
-        </div>
 
         <div className="row gx-lg-0 gy-4">
           <div className="col-lg-4">
@@ -100,6 +96,10 @@ export const ContactSection: FC = () => {
           </div>
 
           <div className="col-lg-8">
+          <div className="section-header">
+          <h2>Contacto</h2>
+          <p>Conéctate con nosotros para empezar tu historia de éxito</p>
+        </div>
             <form
               action="/"
               method="POST"
@@ -211,7 +211,7 @@ export const ContactSection: FC = () => {
                 </div>
               </div>
               <div className="text-center">
-                <button type="submit">Enviar mensaje</button>
+                <button type="submit">Enviar</button>
               </div>
             </form>
           </div>

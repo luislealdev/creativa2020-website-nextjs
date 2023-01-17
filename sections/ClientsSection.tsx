@@ -8,22 +8,22 @@ export const Clients = () => {
         <h3><strong>PROYECTOS ACTUALES</strong></h3>
         <div className="grid-3">
           <div>
-            <img src="./img/aboutUs/mafer.jpeg" alt="" />
+            <img src="./img/clients/visualcenter.png" alt="" />
           </div>
           <div>
-            <img src="./img/aboutUs/mafer.jpeg" alt="" />
+            <img src="./img/clients/proveedora.png" alt="" />
           </div>
           <div>
-            <img src="./img/aboutUs/mafer.jpeg" alt="" />
+            <img src="./img/clients/vista-optica.png" alt="" />
           </div>
         </div>
         <br />
         <div className="grid-3">
           <div>
-            <img src="./img/aboutUs/mafer.jpeg" alt="" />
+            <img src="./img/clients/saludvisualcenter.png" alt="" />
           </div>
           <div>
-            <img src="./img/aboutUs/mafer.jpeg" alt="" />
+            <img src="./img/clients/cursosdeoptometria.png" alt="" />
           </div>
           <div>
             <div className="flex">
