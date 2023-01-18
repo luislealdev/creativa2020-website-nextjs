@@ -16,7 +16,7 @@ export const TestimonialsSection = () => {
             <div>
               <h6>Salud Visual</h6>
               <p>Ópticas</p>
-              <img src="./img/testimonials/saludvisualcenter.png" alt="Salud Visual Center" />
+              <img src="./img/testimonials/saludVisualCenter.png" alt="Salud Visual Center" />
               <p>"Rediseñaron mi imagen y ahora la empresa
                 es más atractiva para los clientes, ¡gracias!".</p>
             </div>
@@ -41,7 +41,7 @@ export const TestimonialsSection = () => {
           <div className="only-one">
             <h6>Visual Center</h6>
             <p>Ópticas</p>
-            <img src="./img/testimonials/visualcenter.png" alt="Visual Center" />
+            <img src="./img/testimonials/visualCenter.png" alt="Visual Center" />
             <p>"Han vestido la cuenta de Instagram y Facebook
               tanto como el sitio web de una forma
               que me gusta pero que sobre todo le
