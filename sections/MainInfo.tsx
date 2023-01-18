@@ -2,11 +2,7 @@ import React from "react";
 import {
   AboutUsSection,
   Clients,
-  StatsSection,
-  OurServicesSection,
   TestimonialsSection,
-  PortFolioSection,
-  OurTeamSection,
   PackagesSection,
   RecentBlogPostSection,
   ContactSection
@@ -17,14 +13,10 @@ export const MainInfo = () => {
     <main id="main">
       <AboutUsSection />
       <Clients />
-      {/* <StatsSection /> */}
-      <OurServicesSection />
+      <PackagesSection />
       <TestimonialsSection />
-      {/* <PortFolioSection/> */}
-      {/* <OurTeamSection/> */}
-      <PackagesSection/>
-      <RecentBlogPostSection/>
-      <ContactSection/>
+      <RecentBlogPostSection />
+      <ContactSection />
     </main>
   );
 };
