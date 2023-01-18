@@ -241,7 +241,6 @@ h6 {
   height: 50px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   background-color: transparent;
   background: rgb(80,65,219);
   background: linear-gradient(90deg, rgba(80,65,219,1) 0%, rgba(124,113,227,1) 50%, rgba(80,65,219,1) 100%);
@@ -272,10 +271,15 @@ h6 {
 @media (max-width: 770px) {
   .nav {
     justify-content: center;
+    align-items: center;
+  }
+  .nav img{
+    display: none;
   }
 
   .nav ul {
     gap: 45px;
+    padding-top: 10px;
   }
 
   .nav ul li {

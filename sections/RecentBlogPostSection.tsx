@@ -17,6 +17,7 @@ export const RecentBlogPostSection = () => {
           ))}
         </div>
       </div>
+      <hr />
     </section>
   );
 };

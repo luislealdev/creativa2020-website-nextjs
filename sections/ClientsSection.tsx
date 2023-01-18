@@ -35,7 +35,7 @@ export const Clients = () => {
                   className="img-fluid"
                   autoplay
                   loop
-                  src="https://assets3.lottiefiles.com/packages/lf20_6pjojgtl.json"
+                  src="https://assets9.lottiefiles.com/packages/lf20_ft7sexw4.json"
                   background="transparent"
                   style={{ height: "200px", width: "200px" }}
                 />
