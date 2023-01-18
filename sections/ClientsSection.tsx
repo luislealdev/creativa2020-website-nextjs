@@ -1,6 +1,7 @@
 import React from "react";
 import { Player } from '@lottiefiles/react-lottie-player';
 import { useState } from 'react';
+import NextLink from 'next/link';
 
 export const Clients = () => {
   const [isHovering, setIsHovering] = useState(0);
@@ -10,9 +11,11 @@ export const Clients = () => {
       <div className="container" data-aos="zoom-out">
         <h3><strong>PROYECTOS ACTUALES</strong></h3>
         <div className="grid-3">
+          <NextLink href='/clientes/visual-center'>
           <div onMouseOver={() => setIsHovering(1)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/VC${isHovering == 1 ? 2 : 1}.png`} alt="" />
           </div>
+          </NextLink>
           <div onMouseOver={() => setIsHovering(2)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/PDO${isHovering == 2 ? 2 : 1}.png`} alt="" />
           </div>
@@ -42,7 +45,7 @@ export const Clients = () => {
               </div>
               <div>
                 <p><strong>5</strong> Proyectos activos</p>
-                <p><strong>960 <span>Hrs</span></strong>Creando proyectos</p>
+                <p><strong>960<span>Hrs</span> <br /></strong>Creando proyectos</p>
               </div>
             </div>
           </div>

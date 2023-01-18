@@ -58,7 +58,7 @@ h6 {
   font-family: var(--font-primary);
 }
 
-.container{
+.container {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -107,9 +107,10 @@ h6 {
   color: black !important;
 }
 
-.flex{
+.flex {
   display: flex;
 }
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -120,7 +121,7 @@ h6 {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-v-2{
+.grid-v-2 {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
 }
@@ -242,10 +243,11 @@ h6 {
   display: flex;
   justify-content: space-between;
   background-color: transparent;
-  background: rgb(80,65,219);
-  background: linear-gradient(90deg, rgba(80,65,219,1) 0%, rgba(124,113,227,1) 50%, rgba(80,65,219,1) 100%);
+  background: rgb(80, 65, 219);
+  background: linear-gradient(90deg, rgba(80, 65, 219, 1) 0%, rgba(124, 113, 227, 1) 50%, rgba(80, 65, 219, 1) 100%);
   border: 5px #000;
 }
+
 .nav img {
   max-height: 100%;
   scale: .5;
@@ -273,7 +275,8 @@ h6 {
     justify-content: center;
     align-items: center;
   }
-  .nav img{
+
+  .nav img {
     display: none;
   }
 
@@ -426,6 +429,7 @@ h6 {
 section {
   overflow: hidden;
 }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -509,27 +513,10 @@ section {
   margin-top: 55px;
 }
 
-#about .super-big-1 {
-  color: #EAEAF8;
-  font-size: 700px;
-  font-weight: 100;
-  position: relative;
-  left: -130px;
-  bottom: 265px;
-}
-
-#about .super-big-2 {
-  color: #EAEAF8;
-  font-size: 700px;
-  font-weight: 100;
-  position: relative;
-  right: 78px;
-  bottom: 265px;
-}
-
-#about .grid-10-80-10{
+#about .grid-10-80-10 {
   max-height: 800px;
 }
+
 #about h2 {
   font-size: 40px;
   color: white;
@@ -579,16 +566,18 @@ section {
   #about .super-big-1 {
     display: none;
   }
-  
+
   #about .super-big-2 {
     display: none;
   }
+
   #about .objetivo .img-fluid {
     height: 150px;
     width: 150px;
     position: relative;
     top: -20px;
   }
+
   #about .objetivo p {
     position: relative;
     top: -40px;
@@ -631,13 +620,13 @@ section {
     margin-top: 20px;
     height: 200px;
   }
-  
+
   #about .objetivo .img-fluid {
     height: 100px;
     width: 100px;
     top: 0;
   }
-  
+
   #about .objetivo p {
     text-align: center;
     font-size: 15px;
@@ -649,34 +638,53 @@ section {
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
-#clients .grid-3{
+#clients .grid-3 {
   gap: 20px;
 }
-#clients .grid-3 div{
+
+#clients .grid-3 div {
   background-color: #eaeaf8;
   height: 300px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
-#clients img{
+
+#clients img {
   width: 100%;
   height: 100%;
 }
-#clients .flex{
+
+#clients .flex {
   align-items: center;
   justify-content: center;
 }
 
+#clients .flex p{
+  font-size: 20px;
+}
+
+#clients .flex p strong{
+  font-size: 30px;
+}
+
+#clients .flex p span{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
 @media (min-width: 771px) and (max-width: 1200px) {
-  #clients .grid-3{
+  #clients .grid-3 {
     display: flex;
   }
-  #clients .grid-3 div{
+
+  #clients .grid-3 div {
     height: 200px;
   }
 }
 
 @media (max-width: 770px) {
-  #clients .grid-3 div{
+  #clients .grid-3 div {
     height: 200px;
   }
 }
@@ -685,33 +693,38 @@ section {
 # Testimonials Section
 --------------------------------------------------------------*/
 
-#testimonials{
+#testimonials {
   text-align: center;
 }
-#testimonials h2{
+
+#testimonials h2 {
   margin-bottom: 15px;
 }
-#testimonials h6{
+
+#testimonials h6 {
   font-weight: bold;
   font-size: 24px;
 }
-#testimonials img{
+
+#testimonials img {
   width: 150px;
   background-color: white;
   border-radius: 100px;
   margin-bottom: 5px
 }
-#testimonials .grid-3{
-gap: 20px;
-}
-#testimonials .grid-v-2 div{
-background-color: #EAEAF8;
-border-radius: 25px;
-margin-bottom: 20px;
-padding: 10px;
+
+#testimonials .grid-3 {
+  gap: 20px;
 }
 
-#testimonials .only-one{
+#testimonials .grid-v-2 div {
+  background-color: #EAEAF8;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#testimonials .only-one {
   background-color: #EAEAF8;
   border-radius: 25px;
   margin-bottom: 20px;
@@ -723,29 +736,32 @@ padding: 10px;
 }
 
 @media (min-width: 771px) and (max-width: 1200px) {
-  #testimonials .only-one{
+  #testimonials .only-one {
     width: 206%;
   }
 }
 
 @media (max-width: 770px) {
-  #testimonials h6{
+  #testimonials h6 {
     font-size: 14px;
   }
-  #testimonials p{
+
+  #testimonials p {
     font-size: 10px;
   }
-  #testimonials img{
+
+  #testimonials img {
     width: 100px;
   }
-  #testimonials .grid-3{
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-    }
 
-    #testimonials .only-one{
-      width: 206%;
-    }
+  #testimonials .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  #testimonials .only-one {
+    width: 206%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1295,10 +1311,11 @@ padding: 10px;
 /*--------------------------------------------------------------
 # Recent Blog Posts Section
 --------------------------------------------------------------*/
-#recent-posts{
-  background: rgb(80,65,219);
-background: linear-gradient(90deg, rgba(80,65,219,1) 0%, rgba(124,113,227,1) 50%, rgba(80,65,219,1) 100%);
+#recent-posts {
+  background: rgb(80, 65, 219);
+  background: linear-gradient(90deg, rgba(80, 65, 219, 1) 0%, rgba(124, 113, 227, 1) 50%, rgba(80, 65, 219, 1) 100%);
 }
+
 .recent-posts article {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -1353,15 +1370,17 @@ background: linear-gradient(90deg, rgba(80,65,219,1) 0%, rgba(124,113,227,1) 50%
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-#contact{
-  background: rgb(80,65,219);
-  background: linear-gradient(90deg, rgba(80,65,219,1) 0%, rgba(124,113,227,1) 50%, rgba(80,65,219,1) 100%);
+#contact {
+  background: rgb(80, 65, 219);
+  background: linear-gradient(90deg, rgba(80, 65, 219, 1) 0%, rgba(124, 113, 227, 1) 50%, rgba(80, 65, 219, 1) 100%);
 }
-#contact .section-header{
+
+#contact .section-header {
   text-align: center;
   color: white;
   font-weight: bolder
 }
+
 .contact .info-container {
   background-color: transparent;
   height: 100%;

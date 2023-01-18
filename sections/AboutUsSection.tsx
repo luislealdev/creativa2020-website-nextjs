@@ -19,10 +19,6 @@ export const AboutUsSection = () => {
         <br /><br /><br /><br />
         <h3><strong>NUESTROS OBJETIVOS</strong></h3>
 
-        <div className="grid-10-80-10">
-          <div>
-            <p className="super-big-1">{`{`}</p>
-          </div>
           <div>
             <div className="objetivo">
             <Player
@@ -52,14 +48,11 @@ export const AboutUsSection = () => {
             src="https://assets7.lottiefiles.com/packages/lf20_r8nsnfit.json"
             background="transparent"
           />
+          
               <p><strong>Fidelización de los clientes</strong>; que cada consumidor regrese y nos recomiende.</p>
             </div>
           </div>
-          <div >
-          <p className="super-big-2">{`}`}</p>
-          </div>
         </div>
-      </div>
     </section>
   );
 };
