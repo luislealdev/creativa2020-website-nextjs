@@ -49,7 +49,7 @@ export const AboutUsSection = () => {
             background="transparent"
           />
           
-              <p><strong>Fortalecer</strong>capacitación, estrategia y estructura interna.</p>
+              <p><strong>Fortalecer </strong>capacitación, estrategia y estructura interna.</p>
             </div>
           </div>
         </div>

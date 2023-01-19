@@ -10,7 +10,7 @@ export const TestimonialsSection = () => {
               <p>By Rod Castañeda</p>
               <img src="./img/testimonials/cursosDeOptometria.png" alt="Cursos de optometría" />
               <p>"Conocen del sector, sobre defectos visuales,
-                equipos; y ese conocimiento ayuda a que pueda
+                equipos; Y ese conocimiento ayuda a que pueda
                 transmitir mis cursos, talleres y certificaciones"</p>
             </div>
             <div>
@@ -26,8 +26,7 @@ export const TestimonialsSection = () => {
               <h6>Proveedora de Óptica</h6>
               <p>Proveedora de lentes</p>
               <img src="./img/testimonials/proveedora.png" alt="Proveedora de óptica" />
-              <p>"Me encantan los diseños bonitos
-                y todavía más cuando son puntuales".</p>
+              <p>"Me ayudaron a tener un crear un catálogo de productos profesional".</p>
             </div>
             <div>
               <h6>Vista Óptica</h6>
@@ -42,11 +41,13 @@ export const TestimonialsSection = () => {
             <h6>Visual Center</h6>
             <p>Ópticas</p>
             <img src="./img/testimonials/visualCenter.png" alt="Visual Center" />
-            <p>"Han vestido la cuenta de Instagram y Facebook
+            {/* <p>"Han vestido la cuenta de Instagram y Facebook
               tanto como el sitio web de una forma
               que me gusta pero que sobre todo le
               gusta a mis clientes y a los nuevos visitantes
-              de las redes"</p>
+              de las redes"</p> */}
+              <p>Han implementado un sistema de citas óptimo y el tráfico en mis sucursales ha incrementado gracias a las pautas
+                 publicitarias además de su estrategia 360 que hemos utilizado en cada sucursal.</p>
           </div>
 
         </div>

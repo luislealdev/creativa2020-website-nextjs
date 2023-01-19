@@ -21,8 +21,8 @@ const clientPage: NextPage<Props> = ({ data }) => {
                 <div className={styles['masonry-container']}>
                     {
                         data.images.map(img => (
-                            <div className={styles['masonry-item']}>
-                                <img src={`/img/clients/${data.slug}/${img}.png`} key={img} alt={data.title} />
+                            <div className={styles['masonry-item']} key={img} >
+                                <img src={`/img/clients/${data.slug}/${img}.png`} alt={data.title} />
                             </div>
                         ))
                     }
