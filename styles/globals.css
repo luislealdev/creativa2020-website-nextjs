@@ -1095,6 +1095,22 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.btn{
+  position: absolute;
+  top: 46%;
+  text-align: center;
+  transition: all 0.5s;
+  z-index: 3;
+}
+
+.hi-prev{
+  left: 25%;
+}
+.hi-next{
+  right: 25%;
+}
+
+
 #services h3 {
   font-weight: 900;
   font-size: 20px;
@@ -1128,8 +1144,8 @@ section {
   opacity: .5;
 }
 
-#services .grid-3 .side h2 {
-  font-size: 12px;
+#services .side {
+  z-index: -2;
 }
 
 #services .side .info {
@@ -1156,7 +1172,7 @@ section {
 }
 
 #services .info div {
-  width: 100%;
+  width: 140%;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -1164,6 +1180,12 @@ section {
   border-radius: 10px;
   justify-content: center;
   /* flex-direction: column; */
+}
+#services .active .info{
+  padding: 25px;
+}
+#services .active .info h2{
+  font-size: 12px;
 }
 
 #services .info div img {
