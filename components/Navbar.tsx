@@ -1,20 +1,20 @@
-import Image from "next/image";
 import NextLink from "next/link";
 import React from "react";
 
 export const Navbar = () => {
 
-
   return (
     <>
       <nav className="nav">
+        {/* <NextLink href='/'> */}
         <img src="/img/logocreativa-blanco.png" alt="" />
+        {/* </NextLink> */}
         <ul>
           <li>
             <NextLink href="/">Inicio</NextLink>
           </li>
           <li>
-            <NextLink href="/servicios">Portafolio</NextLink>
+            <NextLink href="/#services">Portafolio</NextLink>
           </li>
           <li>
             <NextLink href="/blog">Blog</NextLink>

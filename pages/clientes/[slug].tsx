@@ -14,9 +14,28 @@ const clientPage: NextPage<Props> = ({ data }) => {
     return (
         <Layout title={data.title + " | Creativa2020"} metaTags={data.metatags}>
             <div className={styles.clientPage}>
+
                 <h1>{data.title}</h1>
 
-                <img src={`/img/clients/${data.logo}.png`} alt={data.title} className={styles.logo} />
+                <div className={styles.textInfo}>
+                    <div style={{ backgroundColor: '#eaeaf8', maxWidth: '700px', maxHeight: '400px', margin: '40px', borderRadius:'10px'}}>
+                        <img src={`/img/clients/${data.logo}.png`} alt={data.title} className={styles.logo} />
+
+                        <div className={styles.title}>
+                            <h3>{`" ${data.testimony} "`}</h3>
+                            <hr style={{ position: 'relative', top: '-100px' }} />
+                        </div>
+
+                        <ul>
+                            {data.results.map(result => (
+                                <li key={result}>{result}</li>
+                            ))}
+                        </ul>
+                    </div>
+
+
+                </div>
+
 
                 <div className={styles['masonry-container']}>
                     {

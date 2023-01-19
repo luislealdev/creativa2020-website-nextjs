@@ -27,9 +27,11 @@ export const Clients = () => {
         </div>
         <br />
         <div className="grid-3">
+        <NextLink href='/clientes/salud-visual-center'>
           <div onMouseOver={() => setIsHovering(4)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/SVC${isHovering == 4 ? 2 : 1}.png`} alt="" />
           </div>
+          </NextLink>
           <NextLink href='/clientes/cursos-de-optometria'>
           <div onMouseOver={() => setIsHovering(5)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/CDO${isHovering == 5 ? 2 : 1}.png`} alt="" />

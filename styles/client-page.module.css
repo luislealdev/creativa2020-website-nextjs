@@ -1,14 +1,49 @@
 .clientPage{
     justify-items: center;
-    display: inline-grid;
 }
 
 .clientPage h1{
     color: white;
 }
 
+.clientPage h3{
+    font-size: 24px;
+    font-weight: 900
+}
+
+.clientPage hr{
+    width: 50%;
+}
+
+.textInfo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.textInfo h3{
+    top: -100px;
+    position: relative;
+}
+
+.title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.clientPage li{
+    font-size: 18px;
+    top: -100px;
+    position: relative;
+    text-align: center;
+    list-style:none;
+}
+
 .clientPage .logo{
-    height: 500px;
+    height: 300px;
 }
 
 .masonry-container {
