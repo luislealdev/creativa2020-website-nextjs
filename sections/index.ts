@@ -3,7 +3,6 @@ export * from "./ClientsSection";
 export * from "./ContactSection";
 export * from "./FooterSection";
 export * from "./MainInfo";
-export * from "./OurServicesSection";
 export * from "./OurTeamSection";
 export * from "./PackagesSection";
 export * from "./PortFolioSection";

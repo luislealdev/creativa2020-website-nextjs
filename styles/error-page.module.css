@@ -1,0 +1,28 @@
+.margin{
+    margin:40px;
+}
+.title{
+    /* position: relative;
+    top: 100px; */
+    text-align: center;
+    font-size: 44px;
+    color: #24245B;
+}
+
+.img {
+    max-width: 500px;
+}
+
+.link-div{
+    display: flex;
+    /* position: relative;
+    top: -100px; */
+    justify-content: center;
+}
+
+.link{
+    background-color: #24245B;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}

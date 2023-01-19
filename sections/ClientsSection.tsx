@@ -19,18 +19,22 @@ export const Clients = () => {
           <div onMouseOver={() => setIsHovering(2)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/PDO${isHovering == 2 ? 2 : 1}.png`} alt="" />
           </div>
+          <NextLink href='/clientes/vista-optica'>
           <div onMouseOver={() => setIsHovering(3)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/VO${isHovering == 3 ? 2 : 1}.png`} alt="" />
           </div>
+          </NextLink>
         </div>
         <br />
         <div className="grid-3">
           <div onMouseOver={() => setIsHovering(4)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/SVC${isHovering == 4 ? 2 : 1}.png`} alt="" />
           </div>
+          <NextLink href='/clientes/cursos-de-optometria'>
           <div onMouseOver={() => setIsHovering(5)} onMouseOut={() => setIsHovering(0)}>
             <img src={`./img/clients/CDO${isHovering == 5 ? 2 : 1}.png`} alt="" />
           </div>
+          </NextLink>
           <div>
             <div className="flex">
               <div>
