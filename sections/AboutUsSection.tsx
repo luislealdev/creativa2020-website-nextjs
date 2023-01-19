@@ -49,7 +49,7 @@ export const AboutUsSection = () => {
             background="transparent"
           />
           
-              <p><strong>Fidelización de los clientes</strong>; que cada consumidor regrese y nos recomiende.</p>
+              <p><strong>Fortalecer</strong>capacitación, estrategia y estructura interna.</p>
             </div>
           </div>
         </div>

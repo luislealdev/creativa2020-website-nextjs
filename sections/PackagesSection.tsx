@@ -10,12 +10,15 @@ export const PackagesSection = () => {
   return (
     <section id="services" className="">
       <div className="container" data-aos="fade-up">
+        <button>
+          {}
+        </button>
         <div className="grid-3">
 
           {
             principal == 1 ?
               <>
-                <div className="side not-active">
+                  <div className="side not-active">
                   <h3>CREATIVA 1</h3>
                   <div className="info w3-center">
                     {creativa1.map(text => (
