@@ -39,7 +39,7 @@ export const clientsData = [
         slug: "proveedora-de-optica",
         title: 'Proveedora De Óptica',
         logo: "PDO2",
-        testimony: "Me ayudaron a tener un crear un catálogo de productos profesional",
+        testimony: "Me ayudaron a crear un catálogo de productos profesional",
         // results: ['Currícula completa de alumnos', 'Página web optimizada'],
         images: [1],
         metatags: ['Proveedora de optica', 'lentes', 'armazones', 'ventas']

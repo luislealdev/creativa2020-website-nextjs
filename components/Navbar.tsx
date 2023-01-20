@@ -1,5 +1,4 @@
 import NextLink from "next/link";
-import React from "react";
 
 export const Navbar = () => {
 
@@ -14,7 +13,7 @@ export const Navbar = () => {
             <NextLink href="/">Inicio</NextLink>
           </li>
           <li>
-            <NextLink href="/#services">Portafolio</NextLink>
+            <NextLink href="/#services">Servicios</NextLink>
           </li>
           <li>
             <NextLink href="/blog">Blog</NextLink>
