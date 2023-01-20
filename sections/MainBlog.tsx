@@ -1,7 +1,7 @@
 import NextLink from "next/link";
 import { FC } from "react";
 import { PreviewArticle } from "../components";
-import { article, recentArticle } from '../interfaces/articlesInterfaces';
+import { article } from '../interfaces/articlesInterfaces';
 
 interface Props {
   articles: article[]
@@ -10,7 +10,6 @@ interface Props {
 export const MainBlog: FC<Props> = ({ articles }) => {
   return (
     <main id="main">
-      <div className="breadcrumbs">
         <div
           className="page-header d-flex align-items-center"
           style={{
@@ -30,17 +29,6 @@ export const MainBlog: FC<Props> = ({ articles }) => {
             </div>
           </div>
         </div>
-        <nav>
-          <div className="container">
-            <ol>
-              <li>
-                <NextLink href="/">Inicio</NextLink>
-              </li>
-              <li>Blog</li>
-            </ol>
-          </div>
-        </nav>
-      </div>
 
       <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">

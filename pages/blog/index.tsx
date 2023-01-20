@@ -1,14 +1,12 @@
 import React from "react";
 import { Layout } from "../../layouts";
-import { MainBlog } from "../../sections";
 
 import fs from 'fs';
 import matter from 'gray-matter';
-import Image from 'next/image';
 import NextLink from "next/link";
 import { NextPage } from "next";
 import { PreviewArticle } from '../../components/PreviewArticle';
-import { smallArticle, article } from "../../interfaces";
+import {article } from "../../interfaces";
 
 interface Props {
   posts: article[]
@@ -17,7 +15,6 @@ interface Props {
 const BlogPage: NextPage<Props> = ({ posts }) => {
   return (
     <Layout>
-      {/* <MainBlog /> */}
       <>
         <main id="main">
           <div className="breadcrumbs">
@@ -40,16 +37,6 @@ const BlogPage: NextPage<Props> = ({ posts }) => {
                 </div>
               </div>
             </div>
-            <nav>
-              <div className="container">
-                <ol>
-                  <li>
-                    <NextLink href="/">Inicio</NextLink>
-                  </li>
-                  <li>Blog</li>
-                </ol>
-              </div>
-            </nav>
           </div>
 
           <section id="blog" className="blog">
