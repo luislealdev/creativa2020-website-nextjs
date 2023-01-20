@@ -892,7 +892,31 @@ section {
 
 #services .info div p {
   font-size: 12px;
+}
 
+@media (min-width: 771px) and (max-width: 1200px) {
+  .grid-3{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .hi-prev {
+    left: 33%;
+  }
+}
+
+@media (max-width: 770px) {
+  .hi-prev {
+    display: none;
+  }
+  
+  .hi-next {
+    display: none;
+  }
+
+  #services .not-active {
+    opacity: 1;
+    scale: .9;
+  }
 }
 
 /*--------------------------------------------------------------
