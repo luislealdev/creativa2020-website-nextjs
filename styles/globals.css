@@ -659,12 +659,12 @@ section {
 # Clients Section
 --------------------------------------------------------------*/
 #clients .grid-3 {
-  gap: 20px;
+  gap: 35px;
 }
 
 #clients .grid-3 div {
   background-color: #eaeaf8;
-  height: 300px;
+  height: 350px;
   border-radius: 5px;
   display: flex;
   align-items: center;
