@@ -295,7 +295,6 @@ h6 {
 # HOME
 --------------------------------------------------------------*/
 #home-section {
-  background: rgb(162, 154, 235);
   background: radial-gradient(circle, rgba(162, 154, 235, 1) 0%, rgba(80, 65, 219, 1) 100%);
   text-align: center;
   max-height: 120vh;
@@ -304,7 +303,7 @@ h6 {
 #home-section .lateral-1 .animation {
   height: 100%;
   width: 100%;
-  display: none;
+  /* display: none; */
 }
 
 #home-section .lateral-2 .animation {
@@ -315,7 +314,7 @@ h6 {
   transform: scaleX(-1);
   -ms-filter: "FlipH";
   filter: FlipH;
-  display: none;
+  /* display: none; */
 }
 
 #home-section h2 {
