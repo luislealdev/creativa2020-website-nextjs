@@ -4,7 +4,7 @@ import { MainInfo, PrincipalSection } from "../sections"
 
 const HomePage: NextPage = () => {
     return (
-        <Layout title="Inicio" >
+        <Layout title="Inicio" description="Sobre nosotros. Somos una agencia de marketing especializada en el sector óptico que busca entender perfectamente la visión de tu negocio." >
             <>
                 <PrincipalSection />
                 <MainInfo />

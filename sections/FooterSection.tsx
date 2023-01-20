@@ -56,7 +56,7 @@ export const FooterSection = () => {
             <p>
               <strong>Teléfono:</strong> 461 299 7383
               <br />
-              <strong>Correo:</strong> contacto@creativa2020.com
+              <strong>Correo:</strong> creativa2020b@gmail.com
               <br />
             </p>
           </div>

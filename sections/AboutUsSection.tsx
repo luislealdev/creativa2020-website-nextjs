@@ -11,7 +11,7 @@ export const AboutUsSection = () => {
         <p><strong>Creativa2020 es la primera agencia de marketing especializada en
           salud visual y ópticas en todo el país.</strong>
           <br />
-          Ante la necesidad de crear más que solo posts, hemos creado una formula única que entiende el sector.
+          Ante la necesidad de crear más que solo posts, hemos creado una fórmula única que entiende el sector.
           <br /> <br />
           Contamos con especialistas en cada una de nuestras áreas: <br />
           <strong className="italic">Diseño gráfico, marketing, identidad visual, programación, social media y publicidad.</strong>
