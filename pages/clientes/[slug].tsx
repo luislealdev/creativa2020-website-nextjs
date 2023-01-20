@@ -12,13 +12,13 @@ interface Props {
 const clientPage: NextPage<Props> = ({ data }) => {
 
     return (
-        <Layout title={data.title + " | Creativa2020"} metaTags={data.metatags}>
+        <Layout title={data.title + " | Creativa2020"} metaTags={data.metatags} description={`Portafolio sobre nuestro cliente ${data.title}`}>
             <div className={styles.clientPage}>
 
                 <h1>{data.title}</h1>
 
                 <div className={styles.textInfo}>
-                    <div style={{ backgroundColor: '#eaeaf8', maxWidth: '700px', maxHeight: '400px', margin: '40px', borderRadius:'10px'}}>
+                    <div style={{ backgroundColor: '#eaeaf8', maxWidth: '700px', maxHeight: '400px', margin: '40px', borderRadius: '10px' }}>
                         <img src={`/img/clients/${data.logo}.png`} alt={data.title} className={styles.logo} />
 
                         <div className={styles.title}>
