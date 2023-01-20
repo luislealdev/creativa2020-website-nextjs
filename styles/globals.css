@@ -299,7 +299,7 @@ h6 {
   height: 100%;
   width: 180%;
   position: relative;
-  left: -300px;
+  right: 300px;
   top: 300px;
 }
 
@@ -317,7 +317,7 @@ h6 {
   -ms-filter: "FlipH";
   filter: FlipH;
   position: relative;
-  right: -130px;
+  left: 100px;
   top: 300px;
 }
 
