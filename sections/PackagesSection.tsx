@@ -33,7 +33,7 @@ export const PackagesSection = () => {
                   <h3>SERVICIOS JUNIOR</h3>
                   <div className="info w3-center">
                     {servicios_junior.map(text => (
-                      <div>
+                      <div key={text}>
                         <h2>
                           {text}
                         </h2>
@@ -76,7 +76,7 @@ export const PackagesSection = () => {
                   <h3>SERVICIOS SENIOR</h3>
                   <div className="info w3-center">
                     {servicios_senior.map(service => (
-                      <div>
+                      <div key={service.title}>
                         <h2>
                           {service.title}
                         </h2>
@@ -122,7 +122,7 @@ export const PackagesSection = () => {
                     <h3>SERVICIOS JUNIOR</h3>
                     <div className="info w3-center">
                       {servicios_junior.map(text => (
-                        <div>
+                        <div key={text}>
                           <h2>
                             {text}
                           </h2>
@@ -135,7 +135,7 @@ export const PackagesSection = () => {
                     <h3>SERVICIOS SENIOR</h3>
                     <div className="info w3-center">
                       {servicios_senior.map(service => (
-                        <div>
+                        <div key={service.title}>
                           <h2>
                             {service.title}
                           </h2>
@@ -150,7 +150,7 @@ export const PackagesSection = () => {
                     <h3>SERVICIOS JUNIOR</h3>
                     <div className="info w3-center">
                       {servicios_junior.map(text => (
-                        <div>
+                        <div key={text}>
                           <h2>
                             {text}
                           </h2>
@@ -163,7 +163,7 @@ export const PackagesSection = () => {
                     <h3>SERVICIOS SENIOR</h3>
                     <div className="info w3-center">
                       {servicios_senior.map(service => (
-                        <div>
+                        <div key={service.title}>
                           <h2>
                             {service.title}
                           </h2>
