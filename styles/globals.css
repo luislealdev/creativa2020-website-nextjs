@@ -705,12 +705,17 @@ section {
 
   #clients .grid-3 div {
     height: 200px;
+    width: 200px;
+  }
+
+  #clients .grid-3 div p{
+   display: none;
   }
 }
 
 @media (max-width: 770px) {
   #clients .grid-3 div {
-    height: 200px;
+    height: auto;
   }
 }
 
