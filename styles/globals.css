@@ -557,6 +557,7 @@ section {
   font-size: 30px;
   text-align: justify;
   margin: 0 45px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 #about .objetivo {
@@ -723,6 +724,9 @@ section {
 #testimonials h6 {
   font-weight: bold;
   font-size: 24px;
+}
+#testimonials p {
+  font-family: 'Work Sans', sans-serif;
 }
 
 #testimonials img {
