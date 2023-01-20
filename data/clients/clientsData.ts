@@ -31,7 +31,7 @@ export const clientsData = [
         title: 'Salud Visual Center',
         logo: "SVC2",
         testimony: 'Rediseñaron mi imagen y ahora la empresa es más atractiva para los clientes, ¡gracias',
-        results: ['Currícula completa de alumnos', 'Página web optimizada'],
+        // results: ['Currícula completa de alumnos', 'Página web optimizada'],
         images: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
         metatags: ['Salud', 'optometria', 'visual center', 'Celaya']
     },
@@ -40,7 +40,7 @@ export const clientsData = [
         title: 'Proveedora De Óptica',
         logo: "PDO2",
         testimony: "Me ayudaron a tener un crear un catálogo de productos profesional",
-        results: ['Currícula completa de alumnos', 'Página web optimizada'],
+        // results: ['Currícula completa de alumnos', 'Página web optimizada'],
         images: [1],
         metatags: ['Proveedora de optica', 'lentes', 'armazones', 'ventas']
     },

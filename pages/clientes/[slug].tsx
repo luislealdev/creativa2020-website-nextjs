@@ -27,7 +27,7 @@ const clientPage: NextPage<Props> = ({ data }) => {
                         </div>
 
                         <ul>
-                            {data.results.map(result => (
+                            {data.results?.map(result => (
                                 <li key={result}>{result}</li>
                             ))}
                         </ul>

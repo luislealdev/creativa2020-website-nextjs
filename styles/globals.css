@@ -365,6 +365,14 @@ h6 {
 }
 
 @media (max-width: 770px) {
+  #home-section .lateral-1 .animation {
+    display: none;
+  }
+  
+  #home-section .lateral-2 .animation {
+    display: none;
+  }
+
   #home-section h2 {
     font-family: 'Prompt', sans-serif;
     color: white;
@@ -412,6 +420,14 @@ h6 {
 }
 
 @media (min-width: 771px) and (max-width: 1200px) {
+  #home-section .lateral-1 .animation {
+    display: none;
+  }
+  
+  #home-section .lateral-2 .animation {
+    display: none;
+  }
+  
   #home-section h4 {
     font-family: 'Prompt', sans-serif;
     color: white;
