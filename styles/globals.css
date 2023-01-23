@@ -180,6 +180,11 @@ h6 {
   grid-template-columns:35% 37% 28%;
 }
 
+/*Proveedora de óptica*/
+.grid-svc{
+  display: grid;
+  grid-template-columns:34.7% 34.62% 30.68%;
+}
 
 .margin-10px {
   margin: 10px;
