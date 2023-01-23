@@ -8,7 +8,7 @@ const nextConfig = {
     //     hostname: "**",
     //   },
     // ],
-    domains:['img.freepik.com', 'flaticon.es', 'assets.digitalocean.com']
+    domains:['img.freepik.com', 'flaticon.es', 'assets.digitalocean.com','cursosdeoptometria.com.mx']
   },
 }
 
