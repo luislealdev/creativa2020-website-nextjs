@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import { Layout } from '../../layouts';
 
 import styles from '../../styles/client-page.module.css'
+import NextLink from 'next/link';
 
 const visualCenterPage: NextPage = () => {
 
@@ -24,7 +25,7 @@ const visualCenterPage: NextPage = () => {
               <ul>
                 <li>Currícula completa de alumnos</li>
                 <li>Página web optimizada</li>
-                <li><a href="https://cursosdeoptometria.com.mx" target='_blank'>cursosdeoptometria.com.mx</a></li>
+                <li><NextLink href="https://cursosdeoptometria.com.mx" target='_blank' rel="noreferrer">cursosdeoptometria.com.mx</NextLink></li>
               </ul>
             </div>
           </div>
