@@ -120,6 +120,11 @@ h6 {
   grid-template-rows: repeat(2, 1fr);
 }
 
+.grid-v-3 {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
 .grid-8-gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -140,6 +145,41 @@ h6 {
   display: grid;
   grid-template-columns: 10% 80% 10%;
 }
+
+.grid-40-30-30 {
+  display: grid;
+  grid-template-columns: 37.8% 32.2% 29.9%;
+}
+
+/*CUSTOM*/
+/*Vista óptica*/
+.grid-vo-1{
+  display: grid;
+  grid-template-columns:48.75% 51.15%;
+}
+
+.grid-vo-2{
+  display: grid;
+  grid-template-columns:50% 50%;
+}
+
+.grid-vo-3{
+  display: grid;
+  grid-template-columns:30.05% 34.45% 35.47%;
+}
+
+/*Vista óptica*/
+.grid-cdo{
+  display: grid;
+  grid-template-columns:35.72% 28.65% 35.72%;
+}
+
+/*Proveedora de óptica*/
+.grid-pdo-1{
+  display: grid;
+  grid-template-columns:35% 37% 28%;
+}
+
 
 .margin-10px {
   margin: 10px;
@@ -1934,4 +1974,9 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+#clientsPage img{
+  width: 100%;
+  padding: 2px 4px;
 }

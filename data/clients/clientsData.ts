@@ -5,7 +5,7 @@ export const clientsData = [
         logo: "VC2",
         testimony: 'Rediseñaron mi imagen y ahora la empresa es más atractiva para los clientes, ¡gracias!',
         results: ['Incremento en el porcentaje de ventas y entradas', 'Presencia de marca'],
-        images: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        images: [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11],
         metatags: ['Visual Center', 'Visual', 'Opticas', 'Celaya']
     },
     {
