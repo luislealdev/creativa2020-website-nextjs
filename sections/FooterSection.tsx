@@ -13,11 +13,12 @@ export const FooterSection = () => {
             </a>
             <p>Agencia de marketing especializada en el sector óptico..</p>
             <div className="social-links d-flex mt-4">
-              <NextLink href="https://instagram.com/creativa2020_agencia?igshid=Yzg5MTU1MDY=" className="facebook" target="_blank"
+              <NextLink href="https://www.facebook.com/Creativa-2020-109887805156958/?mibextid=ZbWKwL" className="facebook" target="_blank"
                 rel="noreferrer">
                 <i className="bi bi-facebook"></i>
               </NextLink>
-              <NextLink href="https://www.facebook.com/Creativa-2020-109887805156958/?mibextid=ZbWKwL" className="instagram" target="_blank"
+    
+              <NextLink href="https://instagram.com/creativa2020_agencia?igshid=Yzg5MTU1MDY=" className="instagram" target="_blank"
                 rel="noreferrer">
                 <i className="bi bi-instagram"></i>
               </NextLink>

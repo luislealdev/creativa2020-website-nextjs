@@ -17,7 +17,7 @@ const visualCenterPage: NextPage = () => {
               <img src={`/img/clients/SVC2.png`} alt='Salud Visual Center' className={styles.logo} />
 
               <div className={styles.title}>
-                <h3>{`"Rediseñaron mi imagen y ahora la empresa es más atractiva para los clientes, ¡gracias'"`}</h3>
+                <h3>{`"Me ayudaron a que mi marca se viera profesional y a que pudiera estar en otros canales"`}</h3>
                 <hr style={{ position: 'relative', top: '-100px' }} />
               </div>
 
