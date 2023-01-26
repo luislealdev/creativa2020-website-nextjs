@@ -998,12 +998,12 @@ section {
     opacity: 1;
     scale: .9;
   }
+}
 
+@media (max-width: 350px) {
   #services .info div{
     max-width: 90%;
   }
-
-
 }
 
 /*--------------------------------------------------------------
