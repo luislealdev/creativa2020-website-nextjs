@@ -762,6 +762,9 @@ section {
   #clients .grid-3 div {
     height: auto;
   }
+  #clients .flex{
+    flex-direction: column;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -994,6 +997,12 @@ section {
   #services .not-active {
     opacity: 1;
     scale: .9;
+  }
+}
+
+@media (max-width: 350px) {
+  #services .info div{
+    max-width: 90%;
   }
 }
 
