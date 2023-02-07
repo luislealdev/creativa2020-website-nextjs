@@ -5,7 +5,7 @@ import styles from '../styles/error-page.module.css';
 
 const ErrorPage = () => {
   return (
-    <Layout title='Creativa2020 - 404'>
+    <Layout title='Creativa 2020 - 404'>
       <div className={styles.margin}>
       <h5 className={styles.title}>Ops! Esta página no existe...</h5>
 
