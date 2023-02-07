@@ -14,7 +14,7 @@ interface Props {
 
 const BlogPage: NextPage<Props> = ({ posts }) => {
   return (
-    <Layout title="Creativa2020 | Blog | Noticias" description="Encuentra los últimos tips, consejos y novedades sobre ventas." metaTags={['blog','consejos','ventas']}>
+    <Layout title="Creativa 2020 | Blog | Noticias" description="Encuentra los últimos tips, consejos y novedades sobre ventas." metaTags={['blog','consejos','ventas']}>
       <>
         <main id="main">
           <div className="breadcrumbs">

@@ -7,7 +7,7 @@ import NextLink from 'next/link';
 const visualCenterPage: NextPage = () => {
 
   return (
-    <Layout title={"Cursos De Optometría | Creativa2020"} metaTags={['Cursos', 'optometria', 'rod castañeda', 'Celaya']} description={`Portafolio sobre Cursos de optometría`}>
+    <Layout title={"Cursos De Optometría | Creativa 2020"} metaTags={['Cursos', 'optometria', 'rod castañeda', 'Celaya']} description={`Portafolio sobre Cursos de optometría`}>
 
       <section id='clientsPage'>
         <div className={styles.clientPage}>

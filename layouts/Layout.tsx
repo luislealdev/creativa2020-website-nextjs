@@ -22,20 +22,20 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
             <Head>
                 {/*TITLE */}
                 <title>
-                    {title || 'Creativa2020'}
+                    {title || 'Creativa 2020'}
                 </title>
 
                 {/*FAVICON */}
                 <link href="./img/favicon.png" rel="icon" />
                 <link rel="shortcut icon" href={`${favIcon || 'img/logo.png'}`} type="image/x-icon" />
                 {/*AUTHOR */}
-                <meta name='author' content={`CREATIVA2020 - ${author || 'Luis Leal'}`} />
+                <meta name='author' content={`CREATIVA 2020 - ${author || 'Luis Leal'}`} />
                 {/*DESCRIPTION AND KEYWORDS */}
                 <meta name='description' content={`${description || 'Agencia de marketing especializada en el sector óptico y salud visual.'} `} />
-                <meta name='keywords' content={`${metaTags + ',' || ''}creativa2020, marketing, celaya, agencia, agencia especializada en el sector optico, salud visual`} />
+                <meta name='keywords' content={`${metaTags + ',' || ''}creativa 2020, marketing, celaya, agencia, agencia especializada en el sector optico, salud visual`} />
                 {/*METATAGS*/}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content={`${title || 'Creativa2020'} `} />
+                <meta property="og:title" content={`${title || 'Creativa 2020'} `} />
                 <meta property="og:description" content={`${description || 'Agencia de marketing especializada en el sector óptico y salud visual.'} `} />
                 <meta property="og:image" content={`${favIcon || defaultOGImage}`} />
                 <meta property="og:url" content="https://creativa2020.com/" />

@@ -6,7 +6,7 @@ import styles from '../../styles/client-page.module.css'
 const visualCenterPage: NextPage = () => {
 
   return (
-    <Layout title={"Salud Visual Center | Creativa2020"} metaTags={['Salud', 'optometria', 'visual center', 'Celaya']} description={`Portafolio sobre Salud Visual Center`}>
+    <Layout title={"Salud Visual Center | Creativa 2020"} metaTags={['Salud', 'optometria', 'visual center', 'Celaya']} description={`Portafolio sobre Salud Visual Center`}>
 
       <section id='clientsPage'>
         <div className={styles.clientPage}>
