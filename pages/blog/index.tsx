@@ -3,7 +3,6 @@ import { Layout } from "../../layouts";
 
 import fs from 'fs';
 import matter from 'gray-matter';
-import NextLink from "next/link";
 import { NextPage } from "next";
 import { PreviewArticle } from '../../components/PreviewArticle';
 import {article } from "../../interfaces";

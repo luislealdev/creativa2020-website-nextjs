@@ -29,9 +29,9 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
                 <link href="./img/favicon.png" rel="icon" />
                 <link rel="shortcut icon" href={`${favIcon || 'img/logo.png'}`} type="image/x-icon" />
                 {/*AUTHOR */}
-                <meta name='author' content={`CREATIVA 2020 - ${author || 'Luis Leal'}`} />
+                <meta name='author' content={`Creativa 2020 - ${author || 'Luis Leal'}`} />
                 {/*DESCRIPTION AND KEYWORDS */}
-                <meta name='description' content={`${description || 'Agencia de marketing especializada en el sector óptico y salud visual.'} `} />
+                <meta name='description' content={`${description + '- creativa 2020' || 'Creativa 2020 es la primera agencia de marketing especializada en el sector óptico y salud visual.'} `} />
                 <meta name='keywords' content={`${metaTags + ',' || ''}creativa 2020, marketing, celaya, agencia, agencia especializada en el sector optico, salud visual`} />
                 {/*METATAGS*/}
                 <meta property="og:type" content="website" />
