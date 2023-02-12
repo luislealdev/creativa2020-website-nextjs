@@ -41,7 +41,9 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
                 <meta property="og:url" content="https://creativa2020.com/" />
                 <meta property="og:site_name" content="Creativa 2020" />
 
+
             </Head>
+
 
             {/* <TopBar /> */}
             <Navbar />
