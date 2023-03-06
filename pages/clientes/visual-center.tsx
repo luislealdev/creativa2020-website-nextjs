@@ -1,4 +1,5 @@
 import { NextPage } from 'next'
+import Image from 'next/image';
 import { Layout } from '../../layouts';
 
 import styles from '../../styles/client-page.module.css'
@@ -14,7 +15,7 @@ const visualCenterPage: NextPage = () => {
 
           <div className={styles.textInfo}>
             <div style={{ backgroundColor: '#eaeaf8', maxWidth: '700px', maxHeight: '400px', margin: '40px', borderRadius: '10px' }}>
-              <img src={`/img/clients/VC2.png`} alt='Visual Center' className={styles.logo} />
+              <Image src={`/img/clients/VC2.png`} alt='Visual Center' className={styles.logo} width={500} height={500}/>
 
               <div className={styles.title}>
                 <h3>{`"Rediseñaron mi imagen y ahora la empresa es más atractiva para los clientes, ¡gracias!"`}</h3>

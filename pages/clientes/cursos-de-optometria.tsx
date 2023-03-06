@@ -3,6 +3,7 @@ import { Layout } from '../../layouts';
 
 import styles from '../../styles/client-page.module.css'
 import NextLink from 'next/link';
+import Image from 'next/image';
 
 const visualCenterPage: NextPage = () => {
 
@@ -15,7 +16,7 @@ const visualCenterPage: NextPage = () => {
 
           <div className={styles.textInfo}>
             <div style={{ backgroundColor: '#eaeaf8', maxWidth: '700px', maxHeight: '400px', margin: '40px', borderRadius: '10px' }}>
-              <img src={`/img/clients/CDO2.png`} alt='Visual Center' className={styles.logo} />
+              <Image src={`/img/clients/CDO2.png`} alt='Visual Center' className={styles.logo} width={500} height={500}  />
 
               <div className={styles.title}>
                 <h3>{`"Conocen del sector y ese conocimiento ayuda a que pueda transmitir mis cursos, talleres y certificaciones"`}</h3>
