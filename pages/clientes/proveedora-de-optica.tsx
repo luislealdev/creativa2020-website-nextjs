@@ -34,14 +34,14 @@ const visualCenterPage: NextPage = () => {
 
         <div className="grid-pdo-1">
               <div>
-              <img src="/img/clients/proveedora-de-optica/3.jpg" alt="Proveedora de optica" />
+              <Image src="/img/clients/proveedora-de-optica/3.jpg" alt="Proveedora de optica" width={500} height={500} />
               </div>
               <div>
-              <img src="/img/clients/proveedora-de-optica/5.jpg" alt="Proveedora de optica" />
-              <img src="/img/clients/proveedora-de-optica/6.jpg" alt="Proveedora de optica" />
+              <Image src="/img/clients/proveedora-de-optica/5.jpg" alt="Proveedora de optica"  width={500} height={500}/>
+              <Image src="/img/clients/proveedora-de-optica/6.jpg" alt="Proveedora de optica"  width={500} height={500}/>
               </div>
               <div>
-              <img src="/img/clients/proveedora-de-optica/1.jpg" alt="Proveedora de optica" />
+              <Image src="/img/clients/proveedora-de-optica/1.jpg" alt="Proveedora de optica"  width={500} height={500}/>
               </div>
         </div>
       </section>

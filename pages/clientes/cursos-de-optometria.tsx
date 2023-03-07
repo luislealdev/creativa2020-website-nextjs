@@ -32,19 +32,19 @@ const visualCenterPage: NextPage = () => {
           </div>
         </div>
 
-        <img src="/img/clients/cursos-de-optometria/5.jpg" alt="Cursos de optometria" />
+        <Image src="/img/clients/cursos-de-optometria/5.jpg" alt="Cursos de optometria" width={500} height={500}/>
         <div className="grid-cdo">
             <div>
-            <img src="/img/clients/cursos-de-optometria/6.jpg" alt="Cursos de optometria" />
+            <Image src="/img/clients/cursos-de-optometria/6.jpg" alt="Cursos de optometria" width={500} height={500}/>
             </div>
             <div>
-            <img src="/img/clients/cursos-de-optometria/4.jpg" alt="Cursos de optometria" />
+            <Image src="/img/clients/cursos-de-optometria/4.jpg" alt="Cursos de optometria" width={500} height={500}/>
             </div>
             <div>
-            <img src="/img/clients/cursos-de-optometria/1.jpg" alt="Cursos de optometria" />
+            <Image src="/img/clients/cursos-de-optometria/1.jpg" alt="Cursos de optometria" width={500} height={500}/>
             </div>
         </div>
-        <img src="/img/clients/cursos-de-optometria/7.jpg" alt="Cursos de optometria" />
+        <Image src="/img/clients/cursos-de-optometria/7.jpg" alt="Cursos de optometria" width={500} height={500}/>
       </section>
 
     </Layout>
