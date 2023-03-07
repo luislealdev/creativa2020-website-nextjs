@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NextLink from "next/link";
 
 export const Navbar = () => {
@@ -6,7 +7,7 @@ export const Navbar = () => {
     <>
       <nav className="nav">
         {/* <NextLink href='/'> */}
-        <img src="/img/logocreativa-blanco.png" alt="" />
+        <Image src="/img/logocreativa-blanco.png" alt="logo creativa 2020" width={500} height={500}/>
         {/* </NextLink> */}
         <ul>
           <li>

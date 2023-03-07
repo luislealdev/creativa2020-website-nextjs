@@ -33,23 +33,23 @@ const visualCenterPage: NextPage = () => {
 
         <div className='grid-40-30-30'>
           <div>
-            <img src="/img/clients/visual-center/1.jpg" alt='Visual Center' />
-            <img src="/img/clients/visual-center/2.jpg" alt='Visual Center' />
-            <img src="/img/clients/visual-center/3.jpg" alt='Visual Center' />
+            <Image src="/img/clients/visual-center/1.jpg" alt='Visual Center' width={500} height={500}/>
+            <Image src="/img/clients/visual-center/2.jpg" alt='Visual Center' width={500} height={500}/>
+            <Image src="/img/clients/visual-center/3.jpg" alt='Visual Center' width={500} height={500}/>
           </div>
           <div>
-            <img src="/img/clients/visual-center/4.jpg" alt='Visual Center' />
-            <img src="/img/clients/visual-center/5.jpg" alt='Visual Center' />
-            <img src="/img/clients/visual-center/6.jpg" alt='Visual Center' />
+            <Image src="/img/clients/visual-center/4.jpg" alt='Visual Center' width={500} height={500}/>
+            <Image src="/img/clients/visual-center/5.jpg" alt='Visual Center' width={500} height={500}/>
+            <Image src="/img/clients/visual-center/6.jpg" alt='Visual Center' width={500} height={500}/>
           </div>
           <div>
-            <img src="/img/clients/visual-center/8.jpg" alt='Visual Center' />
-            <img src="/img/clients/visual-center/9.jpg" alt='Visual Center' />
-            <img src="/img/clients/visual-center/10.jpg" alt='Visual Center' />
-            <img src="/img/clients/visual-center/11.jpg" alt='Visual Center' />
+            <Image src="/img/clients/visual-center/8.jpg" alt='Visual Center' width={500} height={500}/>
+            <Image src="/img/clients/visual-center/9.jpg" alt='Visual Center' width={500} height={500}/>
+            <Image src="/img/clients/visual-center/10.jpg" alt='Visual Center' width={500} height={500}/>
+            <Image src="/img/clients/visual-center/11.jpg" alt='Visual Center' width={500} height={500}/>
           </div>
         </div>
-        <img src="/img/clients/visual-center/7.jpg" alt='Visual Center' />
+        <Image src="/img/clients/visual-center/7.jpg" alt='Visual Center' width={500} height={500}/>
       </section>
 
     </Layout>

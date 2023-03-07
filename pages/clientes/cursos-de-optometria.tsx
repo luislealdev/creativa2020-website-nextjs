@@ -16,7 +16,7 @@ const visualCenterPage: NextPage = () => {
 
           <div className={styles.textInfo}>
             <div style={{ backgroundColor: '#eaeaf8', maxWidth: '700px', maxHeight: '400px', margin: '40px', borderRadius: '10px' }}>
-              <Image src={`/img/clients/CDO2.png`} alt='Visual Center' className={styles.logo} width={500} height={500}  />
+              <Image src={`/img/clients/CDO2.png`} alt='Visual Center' className={styles.logo} width={500} height={500} />
 
               <div className={styles.title}>
                 <h3>{`"Conocen del sector y ese conocimiento ayuda a que pueda transmitir mis cursos, talleres y certificaciones"`}</h3>
@@ -32,19 +32,19 @@ const visualCenterPage: NextPage = () => {
           </div>
         </div>
 
-        <img src="/img/clients/cursos-de-optometria/5.jpg" alt="Cursos de optometria" />
+        <Image src="/img/clients/cursos-de-optometria/5.jpg" alt="Cursos de optometria" width={500} height={500} />
         <div className="grid-cdo">
-            <div>
-            <img src="/img/clients/cursos-de-optometria/6.jpg" alt="Cursos de optometria" />
-            </div>
-            <div>
-            <img src="/img/clients/cursos-de-optometria/4.jpg" alt="Cursos de optometria" />
-            </div>
-            <div>
-            <img src="/img/clients/cursos-de-optometria/1.jpg" alt="Cursos de optometria" />
-            </div>
+          <div>
+            <Image src="/img/clients/cursos-de-optometria/6.jpg" alt="Cursos de optometria" width={500} height={500} />
+          </div>
+          <div>
+            <Image src="/img/clients/cursos-de-optometria/4.jpg" alt="Cursos de optometria" width={500} height={500} />
+          </div>
+          <div>
+            <Image src="/img/clients/cursos-de-optometria/1.jpg" alt="Cursos de optometria" width={500} height={500} />
+          </div>
         </div>
-        <img src="/img/clients/cursos-de-optometria/7.jpg" alt="Cursos de optometria" />
+        <Image src="/img/clients/cursos-de-optometria/7.jpg" alt="Cursos de optometria" width={500} height={500} />
       </section>
 
     </Layout>

@@ -33,14 +33,14 @@ const visualCenterPage: NextPage = () => {
 
         <div className='grid-svc'>
           <div>
-          <img src="/img/clients/salud-visual-center/3.png" alt='salud visual center' />
+            <Image src="/img/clients/salud-visual-center/3.png" alt='salud visual center' width={500} height={500} />
           </div>
           <div>
-          <img src="/img/clients/salud-visual-center/1.jpg" alt='salud visual center' />
-          <img src="/img/clients/salud-visual-center/4.jpeg" alt='salud visual center' />
+            <Image src="/img/clients/salud-visual-center/1.jpg" alt='salud visual center' width={500} height={500} />
+            <Image src="/img/clients/salud-visual-center/4.jpeg" alt='salud visual center' width={500} height={500} />
           </div>
           <div>
-            <img src="/img/clients/salud-visual-center/2.jpg" alt='salud visual center' />
+            <Image src="/img/clients/salud-visual-center/2.jpg" alt='salud visual center' width={500} height={500} />
           </div>
         </div>
       </section>
