@@ -19,7 +19,7 @@ export const PrincipalSection = () => {
           <hr style={{ color: '#C60185' }} />
           <hr style={{ color: '#81E6FD' }} />
           <h6>Somos la primer <strong>Agencia de Marketing 360 </strong> para Ópticas en México</h6>
-          <Image src='/img/manos-creativas.png' alt="imagen de inicio creativa 2020" width={1000} height={400} />
+          <Image src='/img/manos-creativas.webp' alt="imagen de inicio creativa 2020" width={1000} height={400} />
         </div>
         <div className="lateral-2">
         <Onda />
