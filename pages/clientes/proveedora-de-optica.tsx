@@ -15,7 +15,7 @@ const visualCenterPage: NextPage = () => {
 
           <div className={styles.textInfo}>
             <div style={{ backgroundColor: '#eaeaf8', maxWidth: '700px', maxHeight: '400px', margin: '40px', borderRadius: '10px' }}>
-              <Image src={`/img/clients/PDO2.png`} alt='Proveedora De Óptica' className={styles.logo} width={500} height={500}/>
+              <Image src={`/img/clients/PDO2.png`} alt='Proveedora De Óptica' className={styles.logo} width={500} height={500} />
 
               <div className={styles.title}>
                 <h3>{`"Me ayudaron a crear un catálogo de productos profesional"`}</h3>
@@ -33,16 +33,16 @@ const visualCenterPage: NextPage = () => {
 
 
         <div className="grid-pdo-1">
-              <div>
-              <Image src="/img/clients/proveedora-de-optica/3.jpg" alt="Proveedora de optica" width={500} height={500} />
-              </div>
-              <div>
-              <Image src="/img/clients/proveedora-de-optica/5.jpg" alt="Proveedora de optica"  width={500} height={500}/>
-              <Image src="/img/clients/proveedora-de-optica/6.jpg" alt="Proveedora de optica"  width={500} height={500}/>
-              </div>
-              <div>
-              <Image src="/img/clients/proveedora-de-optica/1.jpg" alt="Proveedora de optica"  width={500} height={500}/>
-              </div>
+          <div>
+            <Image src="/img/clients/proveedora-de-optica/3.jpg" alt="Proveedora de optica" width={500} height={500} />
+          </div>
+          <div>
+            <Image src="/img/clients/proveedora-de-optica/5.jpg" alt="Proveedora de optica" width={500} height={500} />
+            <Image src="/img/clients/proveedora-de-optica/6.jpg" alt="Proveedora de optica" width={500} height={500} />
+          </div>
+          <div>
+            <Image src="/img/clients/proveedora-de-optica/1.jpg" alt="Proveedora de optica" width={500} height={500} />
+          </div>
         </div>
       </section>
 
