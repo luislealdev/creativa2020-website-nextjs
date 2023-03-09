@@ -39,7 +39,7 @@ export const recentArticles: article[] = [
       socialImage: "https://img.freepik.com/foto-gratis/orador-musulman-femenino-dando-presentacion-salon-taller-audiencia-o-sala-conferencias-cierrese-arriba-mano-que-senala-marcador-evento-conferencia-formacion-educacion-diversidad-concepto-inclusivo_155003-39222.jpg?w=1380&t=st=1674517310~exp=1674517910~hmac=2f4a37b72ee201c83955e56b784eef978aeb122cc8e4b90a71ea09b826687eab",
       date: "23 enero, 2023",
       author: "Rod Castañeda",
-      authorImg: "https://cursosdeoptometria.com.mx/img/rod11.jpg",
+      authorImg: "img/team/Rod.png",
       category: "Consejos",
       tags: ['ventas','incrementa ventas','dinero','capacitacion','planeacion','opticas','habilidades','herramientas','empleados']
 

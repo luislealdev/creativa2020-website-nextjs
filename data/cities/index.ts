@@ -13,7 +13,7 @@ export const cities = [
 "Chilpancingo",
 "Chimalhuacán",
 "Ciudad Acuña",
-"Ciudad de México ",
+"Ciudad de México",
 "DF",
 "CDMX",
 "Ciudad del Carmen",
