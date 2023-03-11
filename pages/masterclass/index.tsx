@@ -133,7 +133,7 @@ const HomePage: NextPage = () => {
                                                 </form>
                                             </div>
                                         </div>
-                                        <div className="col-xl-6 d-none d-xl-block">
+                                        <div className="col-xl-6 d-xl-block">
                                             <img src="img/masterclass.png" alt="Imagen de la master class" className="img-fluid"
                                                 style={{ borderTopLeftRadius: '.25rem', borderBottomLeftRadius: '.25rem' }} />
                                         </div>
