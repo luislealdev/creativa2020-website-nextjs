@@ -15,7 +15,7 @@ interface Props {
 export const ArticlePage: NextPage<Props> = ({ cityName }) => {
 
     return (
-        <Layout title={'Agencia de marketing en '+ cityName + '| Creativa 2020'} metaTags={[cityName]}>
+        <Layout title={'Agencia de marketing en '+ cityName + ' | Creativa 2020'} metaTags={[cityName]}>
             <>
             <AboutUsSection/>
             <PackagesSection/>
