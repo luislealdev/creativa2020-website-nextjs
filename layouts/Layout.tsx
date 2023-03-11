@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { Navbar } from '../components';
+import { Navbar,FloatAdvice } from '../components';
 import Head from 'next/head';
 import { FooterSection } from "../sections";
 
@@ -19,6 +19,7 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
 
     return (
         <>
+
             <Head>
                 {/*TITLE */}
                 <title>
@@ -43,6 +44,8 @@ export const Layout: FC<Props> = ({ children, title, author, description, favIco
 
 
             </Head>
+
+            <FloatAdvice/>
 
 
             {/* <TopBar /> */}

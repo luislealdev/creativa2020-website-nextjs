@@ -195,6 +195,10 @@ a:hover {
   align-items: center;
 }
 
+#float-advice{
+  position: fixed;
+}
+
 @media (max-width: 770px) {
   .grid-3 {
     display: grid;
