@@ -96,10 +96,10 @@ export const ContactSection: FC = () => {
           </div>
 
           <div className="col-lg-8">
-          <div className="section-header">
-          <h2>Contacto</h2>
-          <p>Conéctate con nosotros para empezar tu historia de éxito</p>
-        </div>
+            <div className="section-header">
+              <h2>Contacto</h2>
+              <p>Conéctate con nosotros para empezar tu historia de éxito</p>
+            </div>
             <form
               action="/"
               method="POST"
