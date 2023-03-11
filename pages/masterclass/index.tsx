@@ -24,6 +24,7 @@ interface formData {
 const HomePage: NextPage = () => {
 
     const { formState, onInputChange, onResetForm } = useForm(formData);
+
     const {
         name,
         city,
@@ -32,11 +33,11 @@ const HomePage: NextPage = () => {
         email
     }: formData = formState;
 
-
     const onSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
         send("id1", "masterclass", formState, "WllcpADNcflscCJRW")
             .then((response) => {
+                
                 Swal.fire(
                     "El mensaje se ha enviado!",
                     "Nos comunicaremos pronto contigo!",
@@ -56,7 +57,7 @@ const HomePage: NextPage = () => {
 
 
     return (
-        <Layout title="Master className | Creativa 2020" description="¡MASTERclassName GRATUITA! Te damos las claves para que tu negocio logre su meta mensual." >
+        <Layout title="Master Class | Creativa 2020" description="¡MASTERCLASS GRATUITA! Te damos las claves para que tu negocio logre su meta mensual." >
             <>
                 <section className=" bg-dark">
                     <div className="container py-5 ">
@@ -79,7 +80,7 @@ const HomePage: NextPage = () => {
                                                                 <input type="text" id="name" name="name" autoComplete="off"
                                                                     className="form-control form-control-lg" required
                                                                     value={name}
-                                                                    onChange={onInputChange}/>
+                                                                    onChange={onInputChange} />
                                                                 <label className="form-label" htmlFor="name">Nombre de la óptica</label>
                                                             </div>
                                                         </div>
@@ -95,7 +96,7 @@ const HomePage: NextPage = () => {
                                                             <div className="form-outline">
                                                                 <input type="text" id="numSucursales" name="numSucursales" autoComplete="off"
                                                                     className="form-control form-control-lg" required value={numSucursales}
-                                                                    onChange={onInputChange}/>
+                                                                    onChange={onInputChange} />
                                                                 <label className="form-label" htmlFor="numSucursales">Número de sucursales</label>
                                                             </div>
                                                         </div>
@@ -103,7 +104,7 @@ const HomePage: NextPage = () => {
                                                             <div className="form-outline">
                                                                 <input type="tel" id="phone" name="phone" autoComplete="off"
                                                                     className="form-control form-control-lg" required value={phone}
-                                                                    onChange={onInputChange}/>
+                                                                    onChange={onInputChange} />
                                                                 <label className="form-label" htmlFor="phone">Teléfono
                                                                     celular</label>
                                                             </div>
@@ -113,7 +114,7 @@ const HomePage: NextPage = () => {
                                                             <div className="form-outline">
                                                                 <input type="tel" id="email" name="email" autoComplete="off"
                                                                     className="form-control form-control-lg" required value={email}
-                                                                    onChange={onInputChange}/>
+                                                                    onChange={onInputChange} />
                                                                 <label className="form-label" htmlFor="email">Correo electrónico</label>
                                                             </div>
                                                         </div>
