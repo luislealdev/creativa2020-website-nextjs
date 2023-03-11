@@ -196,7 +196,13 @@ a:hover {
 }
 
 #float-advice{
+  z-index: 10000;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+  height: 200px;
   position: fixed;
+  background-image: url('/img/MASTERWEB.png');
 }
 
 @media (max-width: 770px) {
@@ -224,6 +230,12 @@ a:hover {
   .grid-15-70-15 {
     display: grid;
     grid-template-columns: 100%;
+  }
+
+  #float-advice{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
   }
 }
 

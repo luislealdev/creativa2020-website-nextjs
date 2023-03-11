@@ -1,9 +1,9 @@
-
+import NextLink from 'next/link';
 
 export const FloatAdvice = () => {
   return (
-    <div id="float-advice">
-
-    </div>
+    <NextLink href='/masterclass'>
+      <div id="float-advice" />
+    </NextLink>
   )
 }
