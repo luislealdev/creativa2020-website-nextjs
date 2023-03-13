@@ -4,5 +4,4 @@ export const keywords = [
     "Agencia digital",
     "Agencia de publicidad",
     "Marketing digital",
-    ""
 ]

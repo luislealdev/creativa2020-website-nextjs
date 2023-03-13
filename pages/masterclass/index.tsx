@@ -4,6 +4,7 @@ import { useForm } from '../../hooks/useForm';
 
 import { send } from "emailjs-com";
 import Swal from "sweetalert2";
+import Image from "next/image";
 
 const formData = {
     name: "",
@@ -134,8 +135,8 @@ const HomePage: NextPage = () => {
                                             </div>
                                         </div>
                                         <div className="col-xl-6 d-xl-block">
-                                            <img src="img/masterclass.png" alt="Imagen de la master class" className="img-fluid"
-                                                style={{ borderTopLeftRadius: '.25rem', borderBottomLeftRadius: '.25rem' }} />
+                                            <Image width={1000} height={1000} src="/img/masterclass.png" alt="Imagen de la master class" className="img-fluid"
+                                                style={{ borderTopLeftRadius: '.25rem', borderBottomLeftRadius: '.25rem', width:'100%' }} />
                                         </div>
                                     </div>
                                 </div>
