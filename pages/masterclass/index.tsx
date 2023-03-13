@@ -57,7 +57,7 @@ const HomePage: NextPage = () => {
 
 
     return (
-        <Layout title="Master Class | Creativa 2020" description="¡MASTERCLASS GRATUITA! Te damos las claves para que tu negocio logre su meta mensual." >
+        <Layout title="Masterclass | Creativa 2020" description="¡MASTERCLASS GRATUITA! Te damos las claves para que tu negocio logre su meta mensual." >
             <>
                 <section className=" bg-dark">
                     <div className="container py-5 ">
