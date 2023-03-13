@@ -1,9 +1,7 @@
-import fs from 'fs';
-import matter from 'gray-matter';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { cities } from '../../data/cities/index';
 import { Layout } from '../../layouts/Layout';
-import { ContactSection, RecentBlogPostSection, Clients } from '../../sections';
+import { ContactSection, RecentBlogPostSection } from '../../sections';
 import { AboutUsSection } from '../../sections/AboutUsSection';
 import { PackagesSection } from '../../sections/PackagesSection';
 
@@ -41,7 +39,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     const { city } = params as { city: string };
 
-    const cityName = city.replace("-"," ").toUpperCase();
+    const cityName = city.replaceAll("-"," ").toUpperCase();
     
 
     return {
