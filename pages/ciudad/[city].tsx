@@ -42,7 +42,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     const { city } = params as { city: string };
 
     const cityName = city.replace("-"," ").toUpperCase();
-    console.log(cityName);
     
 
     return {
